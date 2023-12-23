@@ -1,0 +1,30 @@
+ <PO>
+    <Number>10</Number>
+    <Company>Ma and Pa Co.</Company>
+    <Urgency>ATF</Urgency>
+    <Date>20161108</Date>
+    <Vendor>5TFNCY</Vendor>
+    <Address>
+      <Street1>Lawrenceville Suwanee</Street1>
+      <Street2/>
+      <City>Little Rock</City>
+      <State>Moreno Drive</State>
+      <Postal/>
+    </Address>
+    <Delivery>
+      <DeliverBy>20170709</DeliverBy>
+      <DeliverToName>Reagan</DeliverToName>
+      <DeliverToAddress>
+        <Street1>North Erringer Road</Street1>
+        <Street2/>
+        <City>Honolulu</City>
+        <State>Minnesota</State>
+        <Postal/>
+      </DeliverToAddress>
+      <Item>
+        <Number>55097</Number>
+        <Quantity>5</Quantity>
+        <PartNumber>7</PartNumber>
+      </Item>
+    </Delivery>
+  </PO>

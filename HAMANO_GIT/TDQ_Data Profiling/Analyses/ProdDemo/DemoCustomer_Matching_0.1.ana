@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_phxBUA1tEe6WF_dEW6RlTw" name="DemoCustomer_Matching" creationDate="2023-06-18T09:18:28.410+0900" defaultContext="Default">
+  <clientDependency href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_qUe3sA1tEe6WF_dEW6RlTw"/>
+  <taggedValue xmi:id="_phxBUQ1tEe6WF_dEW6RlTw" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_phxBUg1tEe6WF_dEW6RlTw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_phxBUw1tEe6WF_dEW6RlTw" tag="Author" value="masaki.hamano@tsu.talend.com"/>
+  <taggedValue xmi:id="_phxBVA1tEe6WF_dEW6RlTw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_phxBVQ1tEe6WF_dEW6RlTw" tag="Description" value=""/>
+  <taggedValue xmi:id="_phxBVg1tEe6WF_dEW6RlTw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_qI7H8A1tEe6WF_dEW6RlTw" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_qI7H8Q1tEe6WF_dEW6RlTw" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_qI7H8g1tEe6WF_dEW6RlTw" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_qJg90A1tEe6WF_dEW6RlTw" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_qUb0YQ1tEe6WF_dEW6RlTw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_phxBVw1tEe6WF_dEW6RlTw">
+    <connection href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9oA1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9ow1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9pA1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9pQ1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9pg1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9pw1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9qA1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9qQ1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9qg1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9qw1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9rA1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9rQ1tEe6WF_dEW6RlTw"/>
+    <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../../metadata/fileDelimited/DemoCustomerStandardized_0.1.item#_gjA9rg1tEe6WF_dEW6RlTw"/>
+  </context>
+  <results xmi:id="_phxBWA1tEe6WF_dEW6RlTw">
+    <resultMetadata xmi:id="_phxBWQ1tEe6WF_dEW6RlTw" executionDate="2023-08-29T14:39:19.709+0900" executionDuration="263" executionNumber="7" lastRunOk="true" lastExecutionNumberOk="7"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_phxoYA1tEe6WF_dEW6RlTw" blockSize2frequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B7870707704000000017372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000647371007E0003000000000000000178"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_phxoYQ1tEe6WF_dEW6RlTw" count="100" groupSize2groupFrequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B787070770400000002740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000005E740001327371007E0004000000000000000378" matchedRecordCount="6">
+      <builtInMatchRuleDefinition xmi:id="_phxoYg1tEe6WF_dEW6RlTw" matchGroupQualityThreshold="0.7">
+        <matchRules xmi:id="_p5p84A1tEe6WF_dEW6RlTw" name="マッチングルール: 1" matchInterval="0.7">
+          <matchKeys xmi:id="_wMZGQA1tEe6WF_dEW6RlTw" name="CustomerName" column="CustomerName" confidenceWeight="2" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_wMZGQQ1tEe6WF_dEW6RlTw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_15_iQA1tEe6WF_dEW6RlTw" name="CompanyName" column="CompanyNameStandardized" confidenceWeight="2" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_15_iQQ1tEe6WF_dEW6RlTw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_Ut9lwA1uEe6WF_dEW6RlTw" name="Mail" column="Mail" confidenceWeight="2" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_Ut9lwQ1uEe6WF_dEW6RlTw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_X4r1UA1uEe6WF_dEW6RlTw" name="Phone" column="Phone" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_X4r1UQ1uEe6WF_dEW6RlTw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+          <matchKeys xmi:id="_eMLzsA1uEe6WF_dEW6RlTw" name="Address" column="Address" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+            <algorithm xmi:id="_eMLzsQ1uEe6WF_dEW6RlTw" algorithmType="LEVENSHTEIN" algorithmParameters=""/>
+          </matchKeys>
+        </matchRules>
+        <survivorshipKeys xmi:id="_7x1OkDywEe6fVbHoI5HX6w" name="CustomerName" allowManualResolution="true">
+          <function xmi:id="_7x11oDywEe6fVbHoI5HX6w" algorithmType="Concatenate" algorithmParameters=","/>
+        </survivorshipKeys>
+        <survivorshipKeys xmi:id="_7x11oTywEe6fVbHoI5HX6w" name="CompanyName" allowManualResolution="true">
+          <function xmi:id="_7x11ojywEe6fVbHoI5HX6w" algorithmType="Concatenate" algorithmParameters=","/>
+        </survivorshipKeys>
+        <survivorshipKeys xmi:id="_7x11ozywEe6fVbHoI5HX6w" name="Mail" allowManualResolution="true">
+          <function xmi:id="_7x11pDywEe6fVbHoI5HX6w" algorithmType="Concatenate" algorithmParameters=","/>
+        </survivorshipKeys>
+        <survivorshipKeys xmi:id="_7x11pTywEe6fVbHoI5HX6w" name="Phone" allowManualResolution="true">
+          <function xmi:id="_7x11pjywEe6fVbHoI5HX6w" algorithmType="Concatenate" algorithmParameters=","/>
+        </survivorshipKeys>
+        <survivorshipKeys xmi:id="_7x11pzywEe6fVbHoI5HX6w" name="Address" allowManualResolution="true">
+          <function xmi:id="_7x11qDywEe6fVbHoI5HX6w" algorithmType="Concatenate" algorithmParameters=","/>
+        </survivorshipKeys>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_phxoYw1tEe6WF_dEW6RlTw" analysisType="Match Analysis"/>
+  <contextType xmi:id="_qUb0YA1tEe6WF_dEW6RlTw" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<repertoire>
+    <!-- John DOE -->
+    <personne sexe="masculin">
+        <nom>DOE</nom>
+        <prenom>John</prenom>
+		<adresses>
+         <adresse type="principale">
+            <numero>7</numero>
+            <voie type="Quai">quai de la revolution</voie>
+            <codePostal>94140</codePostal>
+            <ville>Alfortville</ville>
+            <pays>FRANCE</pays>
+         </adresse>
+		 <adresse type="secondaire">
+            <numero>11</numero>
+            <voie type="rue">jean zay</voie>
+            <codePostal>33300</codePostal>
+            <ville>Cenon</ville>
+            <pays>FRANCE</pays>
+         </adresse>
+		</adresses>
+        <telephones>
+            <telephone type="fixe">01 02 03 04 05</telephone>
+            <telephone type="portable">06 07 08 09 10</telephone>
+        </telephones>
+        <emails>
+            <email type="personnel">john.doe@wanadoo.fr</email>
+            <email type="professionnel">john.doe@societe.com</email>
+        </emails>
+    </personne>
+	
+    <!-- Marie POPPINS -->
+    <personne sexe="feminin">
+        <nom>POPPINS</nom>
+        <prenom>Marie</prenom>
+		<adresses>
+         <adresse type="principale">
+            <numero>28</numero>
+            <voie type="avenue">avenue de la république</voie>
+            <codePostal>13005</codePostal>
+            <ville>MARSEILLE</ville>
+            <pays>FRANCE</pays>
+         </adresse>
+		  <adresse type="secondaire">
+            <numero>17</numero>
+            <voie type="rue">chemin des verts</voie>
+            <codePostal>13005</codePostal>
+            <ville>Toulouse</ville>
+            <pays>FRANCE</pays>
+         </adresse>
+		</adresses> 
+        <telephones>
+            <telephone type="fixe">04 05 06 07 08</telephone>
+        </telephones>
+        <emails>
+            <email type="professionnel">contact@poppins.fr</email>
+        </emails>
+    </personne>
+</repertoire>
