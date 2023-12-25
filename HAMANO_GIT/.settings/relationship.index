@@ -140,6 +140,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_4gqIgKIYEe6KyrK99Se_Ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_Mi7OIA8HEe6yfJcrzrAmag",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_R5_L4ACBEe6loaKge7JqUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mi7OIA8HEe6yfJcrzrAmag - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Mi7OIA8HEe6yfJcrzrAmag - leads",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_4mfLoA2XEe6WF_dEW6RlTw",
     "version" : "0.1",
     "type" : "job"
@@ -148,6 +175,21 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5yTlUKISEe6KyrK99Se_Ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_R5_L4ACBEe6loaKge7JqUQ",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -948,6 +990,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_mZxtkKIWEe6KyrK99Se_Ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_HxaT8A1nEe6loaKge7JqUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_HxaT8A1nEe6loaKge7JqUQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_nCql0A1mEe6loaKge7JqUQ",
     "version" : "0.1",
     "type" : "job"
@@ -1097,6 +1154,21 @@
     "id" : "_tVfyMA3cEe6WF_dEW6RlTw - metadata",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zZaJkKISEe6KyrK99Se_Ow",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "HAMANO_GIT:_5yTlUKISEe6KyrK99Se_Ow",
+    "version" : "Latest",
+    "type" : "job"
   } ]
 }, {
   "baseItem" : {

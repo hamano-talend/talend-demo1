@@ -1,0 +1,6 @@
+{
+  "reference_projects" : [ {
+    "project" : "HAMANO_GIT2",
+    "branch" : "main"
+  } ]
+}
