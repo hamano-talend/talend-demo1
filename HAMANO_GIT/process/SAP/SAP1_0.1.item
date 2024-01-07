@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:rrT57DbmKaYgy6w3ujigd+Cr9kmAcqVdYMC2VWWw"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yXE/cIDPlnba757GE5ns/YYPj/SiHnNS2SiM1S8e"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TPoOZtrv5WAPScaRefofUsekyuWk14spaiv+bf0A"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SUDA4S/wT5IeiawXY9OKnWFP38OiqSpoDJSA7j37"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -113,16 +113,198 @@
     <routinesParameter id="_4YlCkA_0Ee6V6fx3OLkVwg" name="TalendStringUtil"/>
     <routinesParameter id="_4YcfsA_0Ee6V6fx3OLkVwg" name="TalendString"/>
   </parameters>
-  <node componentName="tSAPTableInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+  <node componentName="tSAPTableInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kufyUJrVEe6Hy5DlUSTCEg"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
     <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
     <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:sW+SpsfNKaFvS2H+8oTiUS+8CMZBEAzN9hL9G0OaeQv34qi0WPM="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:+VRCVfXU9RTOYXfa08BjjHwkQ3S8oGDUA0IQAlxI9DicnT+WVJ8="/>
     <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
     <elementParameter field="TEXT" name="HOSTNAME" value="&quot;192.168.56.101&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;EH7&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TEXT" name="RFC_SERVER_URL" show="false" value="&quot;http://localhost:8080&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_ID" show="false" value="&quot;default&quot;"/>
+    <elementParameter field="TEXT" name="PACKAGE_SIZE" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="THREAD_COUNT" show="false" value="2"/>
+    <elementParameter field="TEXT" name="TOPIC_PARTITION_COUNT" show="false" value="2"/>
+    <elementParameter field="TEXT" name="MAX_TIME_TO_WAIT" show="false" value="60"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;VBAK&quot;"/>
+    <elementParameter field="CHECK" name="CDS_VIEWS" value="false"/>
+    <elementParameter field="TABLE" name="CDS_VIEW_PARAMETERS" show="false"/>
+    <elementParameter field="TEXT" name="FROM_STATEMENT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILTER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" show="false" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" show="false" value=""/>
+    <elementParameter field="TEXT" name="START_ROW" value="-1"/>
+    <elementParameter field="TEXT" name="MAX_ROW_COUNT" value="10"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="sap_id"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_FTP_BATCH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_PROTOCOL" show="false" value="FTP"/>
+    <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:DKZ1493URQ/t1HDZJ8pq4/uZpdmPM8Z58r/57HCH"/>
+    <elementParameter field="CHECK" name="USE_SERVER_LOGICAL_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
+    <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
+    <elementParameter field="CHECK" name="STREAMING_MODE" value="false"/>
+    <elementParameter field="CHECK" name="NUMC_AS_STRING" value="false"/>
+    <elementParameter field="CHECK" name="DATE_AS_STRING" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_SPACES" value="true"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="KAFKA_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" value="true"/>
+    <elementParameter field="TEXT" name="CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" value="10000"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="REPLACE_CONTROL_CHARACTERS" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="VBAK"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="VBAK" name="tSAPTableInput_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="VBAK" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPInfoCubeInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPInfoCubeInput_1"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPInfoCubeInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPInfoCubeInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kufyUJrVEe6Hy5DlUSTCEg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:eHklKXgkriBmh64wCa2NtL06qJrwI4NqI4CG2VyyxEhuKSj/VE8="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;192.168.56.101&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;0PUR_C04&quot;"/>
+    <elementParameter field="TEXT" name="MAX_ROW_COUNT" value="-1"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="sap_id"/>
+    <elementParameter field="TABLE" name="FILTER_TABLE"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_FTP_BATCH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_PROTOCOL" show="false" value="FTP"/>
+    <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:GR9+3S0sDyZk/pW50a41sa750x84kN7AqJl6K0HQ"/>
+    <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
+    <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" value="-1"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="_0FIGL_C10"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="_0FIGL_C10" name="tSAPInfoCubeInput_1">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="_0FIGL_C10" name="tLogRow_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPTableInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_2"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPTableInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPTableInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_BnAvAKubEe6GTo2vqeqCrg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:H3iRxkXEg4+vcSVclfNjsq8MaYNZ5YxjcTue1GmkbOmly0dz9q4="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.90.0.21&quot;"/>
     <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
     <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
     <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
@@ -132,7 +314,7 @@
     <elementParameter field="TEXT" name="THREAD_COUNT" show="false" value="2"/>
     <elementParameter field="TEXT" name="TOPIC_PARTITION_COUNT" show="false" value="2"/>
     <elementParameter field="TEXT" name="MAX_TIME_TO_WAIT" show="false" value="60"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;VBAK&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;T001&quot;"/>
     <elementParameter field="CHECK" name="CDS_VIEWS" value="false"/>
     <elementParameter field="TABLE" name="CDS_VIEW_PARAMETERS" show="false"/>
     <elementParameter field="TEXT" name="FROM_STATEMENT" show="false" value="&quot;&quot;"/>
@@ -150,7 +332,7 @@
     <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
     <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:fNw/ukix4etBpMlqTUZG5WQVZ8kO9J6sJsDTJqUr"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:dKinHj8Lzt/fIdYkOBMoUgojJN5yqHH+mQhFoXGc"/>
     <elementParameter field="CHECK" name="USE_SERVER_LOGICAL_PATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
     <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
@@ -158,7 +340,10 @@
     <elementParameter field="CHECK" name="NUMC_AS_STRING" value="false"/>
     <elementParameter field="CHECK" name="DATE_AS_STRING" value="false"/>
     <elementParameter field="CHECK" name="TRIM_SPACES" value="true"/>
-    <elementParameter field="TABLE" name="SAP_PROPERTIES"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
     <elementParameter field="TABLE" name="KAFKA_PROPERTIES" show="false"/>
     <elementParameter field="CHECK" name="USE_CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" value="false"/>
     <elementParameter field="TEXT" name="CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" show="false" value="100"/>
@@ -166,21 +351,696 @@
     <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="REPLACE_CONTROL_CHARACTERS" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="T001"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tSAPTableInput_1"/>
+    <metadata connector="FLOW" label="T001" name="tSAPTableInput_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
   </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="T001" name="tLogRow_3">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPODPInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPODPInput_1"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPODPInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPODPInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_BnAvAKubEe6GTo2vqeqCrg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:VI6BSdOz6fCXdU4k68j7EMoeJOu48HX04bT4mcyggoCajlW4jsI="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.90.0.21&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_BnAvAKubEe6GTo2vqeqCrg - _0FI_GL_4"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="sap_id"/>
+    <elementParameter field="TABLE" name="SELECTION_TABLE"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;0FI_GL_4&quot;"/>
+    <elementParameter field="TEXT" name="SUBSCRIBER_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBSCRIBER_PROCESS_NAME" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="EXTRACTION_FULL" value="true"/>
+    <elementParameter field="CHECK" name="RESET_SUBSCRIBER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FTP_BATCH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_PROTOCOL" show="false" value="FTP"/>
+    <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:hwizDELZRh+h4L0rB/2n3z6itaskIdjvuK4HQKS8"/>
+    <elementParameter field="CHECK" name="USE_SERVER_LOGICAL_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
+    <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" value="-1"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="_0FI_GL_4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="_0FI_GL_4" name="tSAPODPInput_1">
+      <column comment="Company Code" key="false" length="4" name="BUKRS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal year / period" key="false" length="7" name="FISCPER" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Accounting Document Number" key="false" length="10" name="BELNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Number of Line Item Within Accounting Document" key="false" length="3" name="BUZEI" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Status of FI Item" key="false" length="1" name="STATUSPS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Chart of Accounts" key="false" length="4" name="KTOPL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="General Ledger Account" key="false" length="10" name="HKONT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Account type" key="false" length="1" name="KOART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Special G/L Indicator" key="false" length="1" name="UMSKZ" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document type" key="false" length="2" name="BLART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Posting Key" key="false" length="2" name="BSCHL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal year variant" key="false" length="2" name="FISCVAR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Date in Document" key="false" length="8" name="BLDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Posting Date in the Document" key="false" length="8" name="BUDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Day On Which Accounting Document Was Entered" key="false" length="8" name="CPUDT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Value date" key="false" length="8" name="VALUT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Clearing Date" key="false" length="8" name="AUGDT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Document Number of the Clearing Document" key="false" length="10" name="AUGBL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Controlling Area" key="false" length="4" name="KOKRS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Cost Center" key="false" length="10" name="KOSTL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Profit Center" key="false" length="10" name="PRCTR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Work Breakdown Structure Element (WBS Element)" key="false" length="8" name="PROJK" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Plant" key="false" length="4" name="WERKS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Business Area" key="false" length="4" name="GSBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Functional Area" key="false" length="16" name="FKBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Partner Profit Center" key="false" length="10" name="PPRCT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Trading partner's business area" key="false" length="4" name="PARGB" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Company ID of trading partner" key="false" length="6" name="VBUND" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency key of the local currency" key="false" length="5" name="LCURR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Local Currency" key="false" length="13" name="DMSOL" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Local Currency" key="false" length="13" name="DMHAB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Local Currency with +/- Signs" key="false" length="13" name="DMSHB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Key" key="false" length="5" name="WAERS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Document Currency" key="false" length="13" name="WRSOL" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Document Currency" key="false" length="13" name="WRHAB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Foreign Currency Amount with Signs (+/-)" key="false" length="13" name="WRSHB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Type of Second Local Currency" key="false" length="2" name="CURT2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency Key of Second Local Currency" key="false" length="5" name="HWAE2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Second Local Currency" key="false" length="13" name="DMSO2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Second Local Currency" key="false" length="13" name="DMHA2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Second Local Currency with +/- Sign" key="false" length="13" name="DMSH2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Type of Third Local Currency" key="false" length="2" name="CURT3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency Key of Third Local Currency" key="false" length="5" name="HWAE3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Third Local Currency" key="false" length="13" name="DMSO3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Third Local Currency" key="false" length="13" name="DMHA3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Third Local Currency with +/- Sign" key="false" length="13" name="DMSH3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Reference Document Number" key="false" length="16" name="XBLNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference key for line item" key="false" length="20" name="XREF3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference document number" key="false" length="10" name="AWREF" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Year for Reference Document Number" key="false" length="4" name="AWGJA" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Company Code for Reference Document Number" key="false" length="4" name="AWBUK" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Controlling Area for Reference Document Number" key="false" length="4" name="AWKOK" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Item Text" key="false" length="50" name="SGTXT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Indicator: Negative posting" key="false" length="1" name="XNEGP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="BW Delta Process: Record Mode" key="false" length="1" name="UPDMOD" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Work Breakdown Structure Element (WBS Element)" key="false" length="24" name="PS_POSID" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Assignment number" key="false" length="18" name="ZUONR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference procedure" key="false" length="5" name="AWTYP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Object key" key="false" length="20" name="AWKEY" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Status" key="false" length="1" name="BSTAT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Amount in local currency" key="false" length="13" name="DMBTR" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Second Local Currency" key="false" length="13" name="DMBE2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Third Local Currency" key="false" length="13" name="DMBE3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Fiscal Year" key="false" length="4" name="GJAHR" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Client" key="false" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal period" key="false" length="2" name="MONAT" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Debit/Credit Indicator" key="false" length="1" name="SHKZG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Amount in document currency" key="false" length="13" name="WRBTR" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Document Header Text" key="false" length="25" name="BKTXT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Business Transaction" key="false" length="4" name="GLVOR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Personnel Number" key="false" length="8" name="PERNR" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Funds Center" key="false" length="16" name="FISTL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fund" key="false" length="10" name="GEBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Transaction Key" key="false" length="3" name="KTOSL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="FM: Budget Period" key="false" length="10" name="BUDGET_PD" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Tax on sales/purchases code" key="false" length="2" name="MWSKZ" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Change Mode for a Data Record in the Delta" key="false" length="1" name="ODQ_CHANGEMODE" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Number of Data Units (Data Records for Example)" key="false" length="19" name="ODQ_ENTITYCNTR" nullable="true" pattern="" precision="0" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <additionalProperties key="CONTENT_TYPE" value="METADATA_SAP_CONTENT_EXTRACTOR"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_4"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUKRS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCPER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BELNR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUZEI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STATUSPS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KTOPL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HKONT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KOART"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UMSKZ"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BLART"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BSCHL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISCVAR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BLDAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUDAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CPUDT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALUT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AUGDT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AUGBL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KOKRS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KOSTL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRCTR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AUFNR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROJK"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WERKS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GSBER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FKBER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PPRCT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PARGB"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VBUND"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LCURR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSOL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMHAB"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSHB"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WAERS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WRSOL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WRHAB"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WRSHB"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CURT2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HWAE2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSO2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMHA2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSH2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CURT3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HWAE3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSO3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMHA3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMSH3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="XBLNR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="XREF3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWREF"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWGJA"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWBUK"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWKOK"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SGTXT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="XNEGP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDMOD"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PS_POSID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ZUONR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWTYP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AWKEY"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BSTAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMBTR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMBE2"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DMBE3"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GJAHR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MANDT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MONAT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SHKZG"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WRBTR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BKTXT"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GLVOR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERNR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISTL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GEBER"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KTOSL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUDGET_PD"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MWSKZ"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ODQ_CHANGEMODE"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ODQ_ENTITYCNTR"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="_0FI_GL_4" name="tLogRow_4">
+      <column comment="Company Code" key="false" length="4" name="BUKRS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal year / period" key="false" length="7" name="FISCPER" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Accounting Document Number" key="false" length="10" name="BELNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Number of Line Item Within Accounting Document" key="false" length="3" name="BUZEI" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Status of FI Item" key="false" length="1" name="STATUSPS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Chart of Accounts" key="false" length="4" name="KTOPL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="General Ledger Account" key="false" length="10" name="HKONT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Account type" key="false" length="1" name="KOART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Special G/L Indicator" key="false" length="1" name="UMSKZ" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document type" key="false" length="2" name="BLART" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Posting Key" key="false" length="2" name="BSCHL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal year variant" key="false" length="2" name="FISCVAR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Date in Document" key="false" length="8" name="BLDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Posting Date in the Document" key="false" length="8" name="BUDAT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Day On Which Accounting Document Was Entered" key="false" length="8" name="CPUDT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Value date" key="false" length="8" name="VALUT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Clearing Date" key="false" length="8" name="AUGDT" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="Document Number of the Clearing Document" key="false" length="10" name="AUGBL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Controlling Area" key="false" length="4" name="KOKRS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Cost Center" key="false" length="10" name="KOSTL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Profit Center" key="false" length="10" name="PRCTR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Order Number" key="false" length="12" name="AUFNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Work Breakdown Structure Element (WBS Element)" key="false" length="8" name="PROJK" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Plant" key="false" length="4" name="WERKS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Business Area" key="false" length="4" name="GSBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Functional Area" key="false" length="16" name="FKBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Partner Profit Center" key="false" length="10" name="PPRCT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Trading partner's business area" key="false" length="4" name="PARGB" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Company ID of trading partner" key="false" length="6" name="VBUND" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency key of the local currency" key="false" length="5" name="LCURR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Local Currency" key="false" length="13" name="DMSOL" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Local Currency" key="false" length="13" name="DMHAB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Local Currency with +/- Signs" key="false" length="13" name="DMSHB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Key" key="false" length="5" name="WAERS" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Document Currency" key="false" length="13" name="WRSOL" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Document Currency" key="false" length="13" name="WRHAB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Foreign Currency Amount with Signs (+/-)" key="false" length="13" name="WRSHB" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Type of Second Local Currency" key="false" length="2" name="CURT2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency Key of Second Local Currency" key="false" length="5" name="HWAE2" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Second Local Currency" key="false" length="13" name="DMSO2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Second Local Currency" key="false" length="13" name="DMHA2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Second Local Currency with +/- Sign" key="false" length="13" name="DMSH2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Currency Type of Third Local Currency" key="false" length="2" name="CURT3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Currency Key of Third Local Currency" key="false" length="5" name="HWAE3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Debit Amount in Third Local Currency" key="false" length="13" name="DMSO3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Credit Amount in Third Local Currency" key="false" length="13" name="DMHA3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Third Local Currency with +/- Sign" key="false" length="13" name="DMSH3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Reference Document Number" key="false" length="16" name="XBLNR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference key for line item" key="false" length="20" name="XREF3" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference document number" key="false" length="10" name="AWREF" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Year for Reference Document Number" key="false" length="4" name="AWGJA" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Company Code for Reference Document Number" key="false" length="4" name="AWBUK" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Controlling Area for Reference Document Number" key="false" length="4" name="AWKOK" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Item Text" key="false" length="50" name="SGTXT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Indicator: Negative posting" key="false" length="1" name="XNEGP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="BW Delta Process: Record Mode" key="false" length="1" name="UPDMOD" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Work Breakdown Structure Element (WBS Element)" key="false" length="24" name="PS_POSID" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Assignment number" key="false" length="18" name="ZUONR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Reference procedure" key="false" length="5" name="AWTYP" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Object key" key="false" length="20" name="AWKEY" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Document Status" key="false" length="1" name="BSTAT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Amount in local currency" key="false" length="13" name="DMBTR" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Second Local Currency" key="false" length="13" name="DMBE2" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Amount in Third Local Currency" key="false" length="13" name="DMBE3" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Fiscal Year" key="false" length="4" name="GJAHR" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Client" key="false" length="3" name="MANDT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fiscal period" key="false" length="2" name="MONAT" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Debit/Credit Indicator" key="false" length="1" name="SHKZG" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Amount in document currency" key="false" length="13" name="WRBTR" nullable="true" pattern="" precision="2" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Document Header Text" key="false" length="25" name="BKTXT" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Business Transaction" key="false" length="4" name="GLVOR" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Personnel Number" key="false" length="8" name="PERNR" nullable="true" pattern="" precision="0" sourceType="BIG_INTEGER" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="Funds Center" key="false" length="16" name="FISTL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Fund" key="false" length="10" name="GEBER" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Transaction Key" key="false" length="3" name="KTOSL" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="FM: Budget Period" key="false" length="10" name="BUDGET_PD" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Tax on sales/purchases code" key="false" length="2" name="MWSKZ" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Change Mode for a Data Record in the Delta" key="false" length="1" name="ODQ_CHANGEMODE" nullable="true" pattern="" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
+      <column comment="Number of Data Units (Data Records for Example)" key="false" length="19" name="ODQ_ENTITYCNTR" nullable="true" pattern="" precision="0" sourceType="BIG_DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <additionalProperties key="CONTENT_TYPE" value="METADATA_SAP_CONTENT_EXTRACTOR"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPInfoCubeInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPInfoCubeInput_2"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPInfoCubeInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPInfoCubeInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_YRm60KufEe6GTo2vqeqCrg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:ISMdGoDt9rfrE3ih2QDC1nzpKVe4DYHAnwPlAByry7kxhYa85FM="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.90.0.22&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;IC_SD1&quot;"/>
+    <elementParameter field="TEXT" name="MAX_ROW_COUNT" value="-1"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="sap_id"/>
+    <elementParameter field="TABLE" name="FILTER_TABLE"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_FTP_BATCH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_PROTOCOL" show="false" value="FTP"/>
+    <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:1V+tbwwMLnqNAeKc0S7q3eKhGWPaDiAf9vd8XguM"/>
+    <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
+    <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" value="-1"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="IC_SD1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IC_SD1" name="tSAPInfoCubeInput_2">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_5"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="IC_SD1" name="tLogRow_5">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSAPTableInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_3"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPTableInput"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPTableInput"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_YRm60KufEe6GTo2vqeqCrg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="SERVERTYPE" value="ApplicationServer"/>
+    <elementParameter field="TEXT" name="CLIENT" value="&quot;800&quot;"/>
+    <elementParameter field="TEXT" name="USERID" value="&quot;mhamano&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:WM+tlamcsM/5RapJ41WHmDCUjpVxTcFso4WHJ0DDfJmpQfFWKNc="/>
+    <elementParameter field="TEXT" name="LANGUAGE" value="&quot;EN&quot;"/>
+    <elementParameter field="TEXT" name="HOSTNAME" value="&quot;10.90.0.22&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMNUMBER" value="&quot;00&quot;"/>
+    <elementParameter field="TEXT" name="SYSTEMID" show="false" value="&quot;PRD&quot;"/>
+    <elementParameter field="TEXT" name="GROUPNAME" show="false" value="&quot;tGroup&quot;"/>
+    <elementParameter field="TEXT" name="RFC_SERVER_URL" show="false" value="&quot;http://localhost:8080&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_ID" show="false" value="&quot;default&quot;"/>
+    <elementParameter field="TEXT" name="PACKAGE_SIZE" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="THREAD_COUNT" show="false" value="2"/>
+    <elementParameter field="TEXT" name="TOPIC_PARTITION_COUNT" show="false" value="2"/>
+    <elementParameter field="TEXT" name="MAX_TIME_TO_WAIT" show="false" value="60"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;T001&quot;"/>
+    <elementParameter field="CHECK" name="CDS_VIEWS" value="false"/>
+    <elementParameter field="TABLE" name="CDS_VIEW_PARAMETERS" show="false"/>
+    <elementParameter field="TEXT" name="FROM_STATEMENT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILTER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" show="false" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" show="false" value=""/>
+    <elementParameter field="TEXT" name="START_ROW" value="-1"/>
+    <elementParameter field="TEXT" name="MAX_ROW_COUNT" value="-1"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="sap_id"/>
+    <elementParameter field="LABEL" name="NOTE_DATASOURCE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="SAP_DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_FTP_BATCH" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="FILE_PROTOCOL" show="false" value="FTP"/>
+    <elementParameter field="TEXT" name="FTP_HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FTP_PORT" show="false" value="21"/>
+    <elementParameter field="TEXT" name="FTP_USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="FTP_PASS" show="false" value="enc:system.encryption.key.v1:EaBZRQ04uIQZyp8Vw4lg6rZoaxNZJ/BF5damlnsf"/>
+    <elementParameter field="CHECK" name="USE_SERVER_LOGICAL_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FTP_DIR" show="false" value="&quot;/usr/sap/talend/ftp/&quot;"/>
+    <elementParameter field="TEXT" name="GENERATED_FILENAME_PREFIX" show="false" value="&quot;current_data_file&quot;"/>
+    <elementParameter field="CHECK" name="STREAMING_MODE" value="false"/>
+    <elementParameter field="CHECK" name="NUMC_AS_STRING" value="false"/>
+    <elementParameter field="CHECK" name="DATE_AS_STRING" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_SPACES" value="true"/>
+    <elementParameter field="TABLE" name="SAP_PROPERTIES">
+      <elementValue elementRef="PROPERTY" value="&quot;api.use_z_talend_read_table&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="KAFKA_PROPERTIES" show="false"/>
+    <elementParameter field="CHECK" name="USE_CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" value="false"/>
+    <elementParameter field="TEXT" name="CUSTOM_MAXLENGTH_FOR_VARIABLE_LENGTH" show="false" value="100"/>
+    <elementParameter field="TEXT" name="FETCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="EXTRACT_REMOTE_PATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="REMOTE_DIR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="REPLACE_CONTROL_CHARACTERS" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="T001"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="T001" name="tSAPTableInput_3">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_6"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="T001" name="tLogRow_6">
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tSAPTableInput_1" offsetLabelX="0" offsetLabelY="0" source="tSAPTableInput_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSAPInfoCubeInput_1" offsetLabelX="0" offsetLabelY="0" source="tSAPInfoCubeInput_1" target="tLogRow_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tSAPTableInput_2" offsetLabelX="0" offsetLabelY="0" source="tSAPTableInput_2" target="tLogRow_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSAPODPInput_1" offsetLabelX="0" offsetLabelY="0" source="tSAPODPInput_1" target="tLogRow_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tSAPInfoCubeInput_2" offsetLabelX="0" offsetLabelY="0" source="tSAPInfoCubeInput_2" target="tLogRow_5">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tSAPTableInput_3" offsetLabelX="0" offsetLabelY="0" source="tSAPTableInput_3" target="tLogRow_6">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_80299c3e-dfca-44ef-883f-8960ba8ddc3e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GfrcWyfp9M3ShKHXPLhVz7K5QgfhQUGM8DL3VAgHnMmB4uK4ssmlL0VtKMouWL7482GUrulRa2Wn&#13;
-J+EErw2iVg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5f29d5a1-c8a9-43c9-8350-8e6051c92cbd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iqXGho3YmSnju8bI1uf3M/qdHSq3s7RAYyaKkNt81zegTY0nTNpq4FEmqpmj+5uZ5SioBefeNZcw&#13;
-bEStPvcBXg==</DigestValue></Reference></SignedInfo><SignatureValue>VFd9Xcv1vl0s3Z9s4T1YZXMSS/vgxjI8fkDOy4NZBERlApkgyrswOJp6bZDwto//1K3cAVU/iOuS&#13;
-1DSmrpfEQ+mjq8blwQ39Qi4Y7Jz/asfRNWLuRB1BNCV/XeyUf+rtmelrqvQGgUJ9zIqG43nqnlx/&#13;
-ph2+6zi8cH4BaZrptOXTLI5x7E0j0AV74AYTw5ryE9rypFtId9mnxU+WKDkeuXo+86fYMorQ0T1o&#13;
-9qj1wxttqnp3NAs5bOEzir5U9qtX3FmDo2+FASecBvaPEu4MyvuMzJHooW/q4r1c098aYVqHknVr&#13;
-pmUhF1YBQRWN2BnsFTEsjjXxHpgy+EiJIKyatA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPInfoCubeInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPODPInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPInfoCubeInput_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPTableInput_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ea5ebdfa-2b56-44eb-a9a6-df65b1f1c0af"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>e4U0PhXUEyz34fL15cYZm7euFdu0I3pm8uqQ+ZRWWcT/nkOtW3NzZQFV25TW+xzwmuqphMiP664/&#13;
+H4feq6D7ZQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_97415c1a-739e-46ed-8ea4-2a1e6e834fbf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4/U8hjgi2xnewRk4TDFhLNHyYNxvTsa5Pger5wuOlNk9apvZ8hLndpGd59nEDpmI3brUcJWESvLB&#13;
+qmNtOz3gjg==</DigestValue></Reference></SignedInfo><SignatureValue>f2p/POaVeZ9MUAQrlaVmKpNmzKB+hzksttw0YnTU1zSqUhw+Wcm2gwlv+Rn0IwSVp4Xj5vYDbSjF&#13;
+cwtHkhbVn0oJ4xVVsDdnphM5aSAG8Y3hpOM6gNEfSwgbzhO4CAxmKmzDZWCe8GfrTHceNmCRSyEw&#13;
+7+fYC56tMjAMtOgPzs3ARVFzH3AyHpQcj52wmnY49gIAKDL2XYU/AG4hGfORomnc0flG9ZYVyLlf&#13;
+zhOBHyETZ7lQSukDpbeKQzJ3d0PvCjyY5nBSqSJTEWiZnMeoDbbWizYa9WBKGXIWA3JFmECNi0bD&#13;
+k9XVrDVhO5kiO1VFysFM4vScaoFBMuFyTVMbJA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -202,4 +1062,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5f29d5a1-c8a9-43c9-8350-8e6051c92cbd" Target="#_80299c3e-dfca-44ef-883f-8960ba8ddc3e"><Timestamp>2023-12-23 10:52:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_97415c1a-739e-46ed-8ea4-2a1e6e834fbf" Target="#_ea5ebdfa-2b56-44eb-a9a6-df65b1f1c0af"><Timestamp>2024-01-07 08:30:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
