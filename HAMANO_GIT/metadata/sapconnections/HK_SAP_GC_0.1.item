@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
-  <TalendMetadata:SAPConnection Client="800" Host="10.90.0.22" Language="EN" Password="enc:system.encryption.key.v1:67+q8DIw8BBPygatfk7PGgkavuvqStQXP7Zm5IVf8D06r5bv" SystemNumber="00" Username="mhamano" dataPackage="_caXf8KufEe6GTo2vqeqCrg" jcoVersion="SAP2" xmi:id="_YRnh4KufEe6GTo2vqeqCrg">
+  <TalendMetadata:SAPConnection Client="800" Host="10.90.0.22" Language="EN" Password="enc:system.encryption.key.v1:67+q8DIw8BBPygatfk7PGgkavuvqStQXP7Zm5IVf8D06r5bv" SystemNumber="00" Username="mhamano" dataPackage="_zB5m0K9rEe6GTo2vqeqCrg" jcoVersion="SAP2" xmi:id="_YRnh4KufEe6GTo2vqeqCrg">
     <taggedValue tag="adsoConnectionType" value="SAP_JCO" xmi:id="_YRnh4aufEe6GTo2vqeqCrg"/>
     <additionalProperties Value="true" propertyName="api.use_z_talend_read_table" xmi:id="_YRnh4qufEe6GTo2vqeqCrg"/>
     <BWInfoCubes id="_bQmmEKugEe6GTo2vqeqCrg" label="IC_SD1" modelType="InfoCube" name="IC_SD1" tableSearchType="STANDARD" tableType="TABLE" xmi:id="_b37r0KugEe6GTo2vqeqCrg">
@@ -19,282 +19,327 @@
       <feature businessName="" comment="Order Currency" label="EEWAERK" length="5" name="EEWAERK" sourceType="STRING" talendType="id_String" xmi:id="_b38S46ugEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPBWTableField"/>
     </BWInfoCubes>
   </TalendMetadata:SAPConnection>
-  <TalendMetadata:GenericPackage dataManager="_YRnh4KufEe6GTo2vqeqCrg" name="HK_SAP_GC" xmi:id="_caXf8KufEe6GTo2vqeqCrg">
-    <ownedElement id="_cUT7QKufEe6GTo2vqeqCrg" label="T001" name="T001" tableSearchType="TRANSPARENT" tableType="TABLE" xmi:id="_caXf8aufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTable">
-      <feature businessName="Client" comment="Client" key="true" label="MANDT" length="3" name="MANDT" sourceType="STRING" talendType="id_String" xmi:id="_caXf8qufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf86ufEe6GTo2vqeqCrg"/>
+  <TalendMetadata:GenericPackage dataManager="_YRnh4KufEe6GTo2vqeqCrg" name="HK_SAP_GC" xmi:id="_zB5m0K9rEe6GTo2vqeqCrg">
+    <ownedElement id="_cUT7QKufEe6GTo2vqeqCrg" label="T001" name="T001" tableSearchType="TRANSPARENT" tableType="TABLE" xmi:id="_zB5m0a9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTable">
+      <feature businessName="Client" comment="Client" key="true" label="MANDT" length="3" name="MANDT" sourceType="STRING" talendType="id_String" xmi:id="_zB5m0q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m069rEe6GTo2vqeqCrg"/>
         <refTable>T000</refTable>
       </feature>
-      <feature businessName="Company Code" comment="Company Code" key="true" label="BUKRS" length="4" name="BUKRS" sourceType="STRING" talendType="id_String" xmi:id="_caXf9KufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf9aufEe6GTo2vqeqCrg"/>
+      <feature businessName="Company Code" comment="Company Code" key="true" label="BUKRS" length="4" name="BUKRS" sourceType="STRING" talendType="id_String" xmi:id="_zB5m1K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m1a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Company Name" comment="Name of Company Code or Company" label="BUTXT" length="25" name="BUTXT" sourceType="STRING" talendType="id_String" xmi:id="_caXf9qufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf96ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Company Name" comment="Name of Company Code or Company" label="BUTXT" length="25" name="BUTXT" sourceType="STRING" talendType="id_String" xmi:id="_zB5m1q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m169rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="City" comment="City" label="ORT01" length="25" name="ORT01" sourceType="STRING" talendType="id_String" xmi:id="_caXf-KufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf-aufEe6GTo2vqeqCrg"/>
+      <feature businessName="City" comment="City" label="ORT01" length="25" name="ORT01" sourceType="STRING" talendType="id_String" xmi:id="_zB5m2K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m2a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Country Key" comment="Country Key" label="LAND1" length="3" name="LAND1" sourceType="STRING" talendType="id_String" xmi:id="_caXf-qufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf-6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Country Key" comment="Country Key" label="LAND1" length="3" name="LAND1" sourceType="STRING" talendType="id_String" xmi:id="_zB5m2q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m269rEe6GTo2vqeqCrg"/>
         <refTable>T005</refTable>
       </feature>
-      <feature businessName="Currency" comment="Currency Key" label="WAERS" length="5" name="WAERS" sourceType="STRING" talendType="id_String" xmi:id="_caXf_KufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf_aufEe6GTo2vqeqCrg"/>
+      <feature businessName="Currency" comment="Currency Key" label="WAERS" length="5" name="WAERS" sourceType="STRING" talendType="id_String" xmi:id="_zB5m3K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m3a9rEe6GTo2vqeqCrg"/>
         <refTable>TCURC</refTable>
       </feature>
-      <feature businessName="Language Key" comment="Language Key" label="SPRAS" length="1" name="SPRAS" sourceType="STRING" talendType="id_String" xmi:id="_caXf_qufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXf_6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Language Key" comment="Language Key" label="SPRAS" length="1" name="SPRAS" sourceType="STRING" talendType="id_String" xmi:id="_zB5m3q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m369rEe6GTo2vqeqCrg"/>
         <refTable>T002</refTable>
       </feature>
-      <feature businessName="Chart of Accounts" comment="Chart of Accounts" label="KTOPL" length="4" name="KTOPL" sourceType="STRING" talendType="id_String" xmi:id="_caXgAKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgAaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Chart of Accounts" comment="Chart of Accounts" label="KTOPL" length="4" name="KTOPL" sourceType="STRING" talendType="id_String" xmi:id="_zB5m4K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m4a9rEe6GTo2vqeqCrg"/>
         <refTable>T004</refTable>
       </feature>
-      <feature businessName="Max. exchange rate deviation" comment="Maximum exchange rate deviation in percent" label="WAABW" length="2" name="WAABW" sourceType="INTEGER" talendType="id_Integer" xmi:id="_caXgAqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgA6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Max. exchange rate deviation" comment="Maximum exchange rate deviation in percent" label="WAABW" length="2" name="WAABW" sourceType="INTEGER" talendType="id_Integer" xmi:id="_zB5m4q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m469rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Fiscal Year Variant" comment="Fiscal Year Variant" label="PERIV" length="2" name="PERIV" sourceType="STRING" talendType="id_String" xmi:id="_caXgBKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgBaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Fiscal Year Variant" comment="Fiscal Year Variant" label="PERIV" length="2" name="PERIV" sourceType="STRING" talendType="id_String" xmi:id="_zB5m5K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m5a9rEe6GTo2vqeqCrg"/>
         <refTable>T009</refTable>
       </feature>
-      <feature businessName="CoCd -&gt; CO Area" comment="Allocation Indicator" label="KOKFI" length="1" name="KOKFI" sourceType="STRING" talendType="id_String" xmi:id="_caXgBqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgB6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="CoCd -&gt; CO Area" comment="Allocation Indicator" label="KOKFI" length="1" name="KOKFI" sourceType="STRING" talendType="id_String" xmi:id="_zB5m5q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m569rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Company" comment="Company" label="RCOMP" length="6" name="RCOMP" sourceType="STRING" talendType="id_String" xmi:id="_caXgCKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgCaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Company" comment="Company" label="RCOMP" length="6" name="RCOMP" sourceType="STRING" talendType="id_String" xmi:id="_zB5m6K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m6a9rEe6GTo2vqeqCrg"/>
         <refTable>T880</refTable>
       </feature>
-      <feature businessName="Address" comment="Address" label="ADRNR" length="10" name="ADRNR" sourceType="STRING" talendType="id_String" xmi:id="_caXgCqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgC6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Address" comment="Address" label="ADRNR" length="10" name="ADRNR" sourceType="STRING" talendType="id_String" xmi:id="_zB5m6q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m669rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="VAT Registration No." comment="VAT Registration Number" label="STCEG" length="20" name="STCEG" sourceType="STRING" talendType="id_String" xmi:id="_caXgDKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgDaufEe6GTo2vqeqCrg"/>
+      <feature businessName="VAT Registration No." comment="VAT Registration Number" label="STCEG" length="20" name="STCEG" sourceType="STRING" talendType="id_String" xmi:id="_zB5m7K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m7a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="FM Area" comment="Financial Management Area" label="FIKRS" length="4" name="FIKRS" sourceType="STRING" talendType="id_String" xmi:id="_caXgDqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgD6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="FM Area" comment="Financial Management Area" label="FIKRS" length="4" name="FIKRS" sourceType="STRING" talendType="id_String" xmi:id="_zB5m7q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m769rEe6GTo2vqeqCrg"/>
         <refTable>FM01</refTable>
       </feature>
-      <feature businessName="Project Cash Mgmt active" comment="Indicator: Project Cash Management active?" label="XFMCO" length="1" name="XFMCO" sourceType="STRING" talendType="id_String" xmi:id="_caXgEKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgEaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Project Cash Mgmt active" comment="Indicator: Project Cash Management active?" label="XFMCO" length="1" name="XFMCO" sourceType="STRING" talendType="id_String" xmi:id="_zB5m8K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m8a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Csh bdgt mgt active" comment="Indicator: Cash budget management active" label="XFMCB" length="1" name="XFMCB" sourceType="STRING" talendType="id_String" xmi:id="_caXgEqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgE6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Csh bdgt mgt active" comment="Indicator: Cash budget management active" label="XFMCB" length="1" name="XFMCB" sourceType="STRING" talendType="id_String" xmi:id="_zB5m8q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m869rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Update FM" comment="Activate Update in Funds Management" label="XFMCA" length="1" name="XFMCA" sourceType="STRING" talendType="id_String" xmi:id="_caXgFKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgFaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Update FM" comment="Activate Update in Funds Management" label="XFMCA" length="1" name="XFMCA" sourceType="STRING" talendType="id_String" xmi:id="_zB5m9K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m9a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Jurisdiction code" comment="Jurisdiction for tax calculation - tax jurisdiction code" label="TXJCD" length="15" name="TXJCD" sourceType="STRING" talendType="id_String" xmi:id="_caXgFqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgF6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Jurisdiction code" comment="Jurisdiction for tax calculation - tax jurisdiction code" label="TXJCD" length="15" name="TXJCD" sourceType="STRING" talendType="id_String" xmi:id="_zB5m9q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m969rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Fds ctr active in HR" comment="Funds center can be assigned to an account in HR from" label="FMHRDATE" length="8" name="FMHRDATE" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_caXgGKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgGaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Fds ctr active in HR" comment="Funds center can be assigned to an account in HR from" label="FMHRDATE" length="8" name="FMHRDATE" pattern="&quot;yyyy-MM-dd&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_zB5m-K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m-a9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Document entry screen variant" comment="Company Code Variant (Screen)" label="BUVAR" length="1" name="BUVAR" sourceType="STRING" talendType="id_String" xmi:id="_caXgGqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgG6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Document entry screen variant" comment="Company Code Variant (Screen)" label="BUVAR" length="1" name="BUVAR" sourceType="STRING" talendType="id_String" xmi:id="_zB5m-q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m-69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Cash management company code" comment="Cash Management and Forecast Company Code" label="FDBUK" length="4" name="FDBUK" sourceType="STRING" talendType="id_String" xmi:id="_caXgHKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgHaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Cash management company code" comment="Cash Management and Forecast Company Code" label="FDBUK" length="4" name="FDBUK" sourceType="STRING" talendType="id_String" xmi:id="_zB5m_K9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m_a9rEe6GTo2vqeqCrg"/>
         <refTable>T001</refTable>
       </feature>
-      <feature businessName="Cash Management activated" comment="Indicator: Cash Management activated?" label="XFDIS" length="1" name="XFDIS" sourceType="STRING" talendType="id_String" xmi:id="_caXgHqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgH6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Cash Management activated" comment="Indicator: Cash Management activated?" label="XFDIS" length="1" name="XFDIS" sourceType="STRING" talendType="id_String" xmi:id="_zB5m_q9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5m_69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Define default value date" comment="Indicator: Propose current date as value date ?" label="XVALV" length="1" name="XVALV" sourceType="STRING" talendType="id_String" xmi:id="_caXgIKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgIaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Define default value date" comment="Indicator: Propose current date as value date ?" label="XVALV" length="1" name="XVALV" sourceType="STRING" talendType="id_String" xmi:id="_zB5nAK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nAa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Discount base is net value" comment="Indicator: Discount base amount is the net value" label="XSKFN" length="1" name="XSKFN" sourceType="STRING" talendType="id_String" xmi:id="_caXgIqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgI6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Discount base is net value" comment="Indicator: Discount base amount is the net value" label="XSKFN" length="1" name="XSKFN" sourceType="STRING" talendType="id_String" xmi:id="_zB5nAq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nA69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Credit control area" comment="Credit control area" label="KKBER" length="4" name="KKBER" sourceType="STRING" talendType="id_String" xmi:id="_caXgJKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgJaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Credit control area" comment="Credit control area" label="KKBER" length="4" name="KKBER" sourceType="STRING" talendType="id_String" xmi:id="_zB5nBK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nBa9rEe6GTo2vqeqCrg"/>
         <refTable>T014</refTable>
       </feature>
-      <feature businessName="Tax base is net value" comment="Indicator: Base amount for tax is net of discount ?" label="XMWSN" length="1" name="XMWSN" sourceType="STRING" talendType="id_String" xmi:id="_caXgJqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgJ6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Tax base is net value" comment="Indicator: Base amount for tax is net of discount ?" label="XMWSN" length="1" name="XMWSN" sourceType="STRING" talendType="id_String" xmi:id="_zB5nBq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nB69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Sample acct rules var." comment="Rules for Copying from the Sample Account for G/L Accounts" label="MREGL" length="4" name="MREGL" sourceType="STRING" talendType="id_String" xmi:id="_caXgKKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgKaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Sample acct rules var." comment="Rules for Copying from the Sample Account for G/L Accounts" label="MREGL" length="4" name="MREGL" sourceType="STRING" talendType="id_String" xmi:id="_zB5nCK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nCa9rEe6GTo2vqeqCrg"/>
         <refTable>T004R</refTable>
       </feature>
-      <feature businessName="Business area fin. statements" comment="Indicator: Business area financial statements required?" label="XGSBE" length="1" name="XGSBE" sourceType="STRING" talendType="id_String" xmi:id="_caXgKqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgK6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Business area fin. statements" comment="Indicator: Business area financial statements required?" label="XGSBE" length="1" name="XGSBE" sourceType="STRING" talendType="id_String" xmi:id="_zB5nCq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nC69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Propose fiscal year" comment="Indicator: Propose fiscal year ?" label="XGJRV" length="1" name="XGJRV" sourceType="STRING" talendType="id_String" xmi:id="_caXgLKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgLaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Propose fiscal year" comment="Indicator: Propose fiscal year ?" label="XGJRV" length="1" name="XGJRV" sourceType="STRING" talendType="id_String" xmi:id="_zB5nDK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nDa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Post translation" comment="Indicator: Post translations for exchange rate differences ?" label="XKDFT" length="1" name="XKDFT" sourceType="STRING" talendType="id_String" xmi:id="_caXgLqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgL6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Post translation" comment="Indicator: Post translations for exchange rate differences ?" label="XKDFT" length="1" name="XKDFT" sourceType="STRING" talendType="id_String" xmi:id="_zB5nDq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nD69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Company code is productive" comment="Indicator: Productive company code?" label="XPROD" length="1" name="XPROD" sourceType="STRING" talendType="id_String" xmi:id="_caXgMKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgMaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Company code is productive" comment="Indicator: Productive company code?" label="XPROD" length="1" name="XPROD" sourceType="STRING" talendType="id_String" xmi:id="_zB5nEK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nEa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Purchase acct proc." comment="Indicator: Purchase Account Processing is Active" label="XEINK" length="1" name="XEINK" sourceType="STRING" talendType="id_String" xmi:id="_caXgMqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgM6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Purchase acct proc." comment="Indicator: Purchase Account Processing is Active" label="XEINK" length="1" name="XEINK" sourceType="STRING" talendType="id_String" xmi:id="_zB5nEq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nE69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="JV Accounting Active" comment="Indicator: JVA Active" label="XJVAA" length="1" name="XJVAA" sourceType="STRING" talendType="id_String" xmi:id="_caXgNKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgNaufEe6GTo2vqeqCrg"/>
+      <feature businessName="JV Accounting Active" comment="Indicator: JVA Active" label="XJVAA" length="1" name="XJVAA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nFK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nFa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Financial Assets Mgmt active" comment="Indicator: Financial Assets Management active" label="XVVWA" length="1" name="XVVWA" sourceType="STRING" talendType="id_String" xmi:id="_caXgNqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgN6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Financial Assets Mgmt active" comment="Indicator: Financial Assets Management active" label="XVVWA" length="1" name="XVVWA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nFq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nF69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="No forex rate diff. when clearing in LC" comment="Indicator: No ex.rate difference when clearing in local crcy" label="XSLTA" length="1" name="XSLTA" sourceType="STRING" talendType="id_String" xmi:id="_caXgOKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgOaufEe6GTo2vqeqCrg"/>
+      <feature businessName="No forex rate diff. when clearing in LC" comment="Indicator: No ex.rate difference when clearing in local crcy" label="XSLTA" length="1" name="XSLTA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nGK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nGa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Update MM in CMF" comment="Indicator: Updating MM in Cash Mgmt/Forecast activated?" label="XFDMM" length="1" name="XFDMM" sourceType="STRING" talendType="id_String" xmi:id="_caXgOqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgO6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Update MM in CMF" comment="Indicator: Updating MM in Cash Mgmt/Forecast activated?" label="XFDMM" length="1" name="XFDMM" sourceType="STRING" talendType="id_String" xmi:id="_zB5nGq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nG69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Update SD in CMF" comment="Indicator: Updating SD in Cash Mgmt/Forecast activated?" label="XFDSD" length="1" name="XFDSD" sourceType="STRING" talendType="id_String" xmi:id="_caXgPKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgPaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Update SD in CMF" comment="Indicator: Updating SD in Cash Mgmt/Forecast activated?" label="XFDSD" length="1" name="XFDSD" sourceType="STRING" talendType="id_String" xmi:id="_zB5nHK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nHa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="External co. code" comment="Indicator: Company code is in another system" label="XEXTB" length="1" name="XEXTB" sourceType="STRING" talendType="id_String" xmi:id="_caXgPqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgP6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="External co. code" comment="Indicator: Company code is in another system" label="XEXTB" length="1" name="XEXTB" sourceType="STRING" talendType="id_String" xmi:id="_zB5nHq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nH69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Original key" comment="Original Key of the Company Code" label="EBUKR" length="4" name="EBUKR" sourceType="STRING" talendType="id_String" xmi:id="_caXgQKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgQaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Original key" comment="Original Key of the Company Code" label="EBUKR" length="4" name="EBUKR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nIK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nIa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Country Chart/Accts" comment="Chart of Accounts According to Country Legislation" label="KTOP2" length="4" name="KTOP2" sourceType="STRING" talendType="id_String" xmi:id="_caXgQqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgQ6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Country Chart/Accts" comment="Chart of Accounts According to Country Legislation" label="KTOP2" length="4" name="KTOP2" sourceType="STRING" talendType="id_String" xmi:id="_zB5nIq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nI69rEe6GTo2vqeqCrg"/>
         <refTable>T004</refTable>
       </feature>
-      <feature businessName="Taxes on sls/purc." comment="Sales/Purchases Tax Group" label="UMKRS" length="4" name="UMKRS" sourceType="STRING" talendType="id_String" xmi:id="_caXgRKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgRaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Taxes on sls/purc." comment="Sales/Purchases Tax Group" label="UMKRS" length="4" name="UMKRS" sourceType="STRING" talendType="id_String" xmi:id="_zB5nJK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nJa9rEe6GTo2vqeqCrg"/>
         <refTable>T007F</refTable>
       </feature>
-      <feature businessName="Global CoCde" comment="Name of global company code" label="BUKRS_GLOB" length="6" name="BUKRS_GLOB" sourceType="STRING" talendType="id_String" xmi:id="_caXgRqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgR6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Global CoCde" comment="Name of global company code" label="BUKRS_GLOB" length="6" name="BUKRS_GLOB" sourceType="STRING" talendType="id_String" xmi:id="_zB5nJq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nJ69rEe6GTo2vqeqCrg"/>
         <refTable>T001O</refTable>
       </feature>
-      <feature businessName="Field status variant" comment="Field Status Variant" label="FSTVA" length="4" name="FSTVA" sourceType="STRING" talendType="id_String" xmi:id="_caXgSKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgSaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Field status variant" comment="Field Status Variant" label="FSTVA" length="4" name="FSTVA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nKK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nKa9rEe6GTo2vqeqCrg"/>
         <refTable>T004V</refTable>
       </feature>
-      <feature businessName="Pstng period variant" comment="Posting Period Variant" label="OPVAR" length="4" name="OPVAR" sourceType="STRING" talendType="id_String" xmi:id="_caXgSqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgS6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Pstng period variant" comment="Posting Period Variant" label="OPVAR" length="4" name="OPVAR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nKq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nK69rEe6GTo2vqeqCrg"/>
         <refTable>T010O</refTable>
       </feature>
-      <feature businessName="Hedge request active" comment="Indicator: hedge request active" label="XCOVR" length="1" name="XCOVR" sourceType="STRING" talendType="id_String" xmi:id="_caXgTKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgTaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Hedge request active" comment="Indicator: hedge request active" label="XCOVR" length="1" name="XCOVR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nLK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nLa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Crcy transl. for tax" comment="Foreign Currency Translation for Tax Items" label="TXKRS" length="1" name="TXKRS" sourceType="STRING" talendType="id_String" xmi:id="_caXgTqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgT6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Crcy transl. for tax" comment="Foreign Currency Translation for Tax Items" label="TXKRS" length="1" name="TXKRS" sourceType="STRING" talendType="id_String" xmi:id="_zB5nLq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nL69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Workflow variant" comment="Workflow variant" label="WFVAR" length="4" name="WFVAR" sourceType="STRING" talendType="id_String" xmi:id="_caXgUKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgUaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Workflow variant" comment="Workflow variant" label="WFVAR" length="4" name="WFVAR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nMK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nMa9rEe6GTo2vqeqCrg"/>
         <refTable>VBWF01</refTable>
       </feature>
-      <feature businessName="Inventory management" comment="G/L account authorization check in inventory management" label="XBBBF" length="1" name="XBBBF" sourceType="STRING" talendType="id_String" xmi:id="_caXgUqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgU6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Inventory management" comment="G/L account authorization check in inventory management" label="XBBBF" length="1" name="XBBBF" sourceType="STRING" talendType="id_String" xmi:id="_zB5nMq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nM69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="PO/scheduling agmt." comment="G/L account authorization check in PO/scheduling agreement" label="XBBBE" length="1" name="XBBBE" sourceType="STRING" talendType="id_String" xmi:id="_caXgVKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgVaufEe6GTo2vqeqCrg"/>
+      <feature businessName="PO/scheduling agmt." comment="G/L account authorization check in PO/scheduling agreement" label="XBBBE" length="1" name="XBBBE" sourceType="STRING" talendType="id_String" xmi:id="_zB5nNK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nNa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Purchase requisition" comment="G/L account authorization check in purchase requisitions" label="XBBBA" length="1" name="XBBBA" sourceType="STRING" talendType="id_String" xmi:id="_caXgVqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgV6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Purchase requisition" comment="G/L account authorization check in purchase requisitions" label="XBBBA" length="1" name="XBBBA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nNq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nN69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Contract" comment="G/L account authorization check in contracts" label="XBBKO" length="1" name="XBBKO" sourceType="STRING" talendType="id_String" xmi:id="_caXgWKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgWaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Contract" comment="G/L account authorization check in contracts" label="XBBKO" length="1" name="XBBKO" sourceType="STRING" talendType="id_String" xmi:id="_zB5nOK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nOa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Tax determ.with doc.date" comment="Indicator: Document date as the basis for tax determination" label="XSTDT" length="1" name="XSTDT" sourceType="STRING" talendType="id_String" xmi:id="_caXgWqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgW6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Tax determ.with doc.date" comment="Indicator: Document date as the basis for tax determination" label="XSTDT" length="1" name="XSTDT" sourceType="STRING" talendType="id_String" xmi:id="_zB5nOq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nO69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Input tax code" comment="Input Tax Code for Non-Taxable Transactions" label="MWSKV" length="2" name="MWSKV" sourceType="STRING" talendType="id_String" xmi:id="_caXgXKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgXaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Input tax code" comment="Input Tax Code for Non-Taxable Transactions" label="MWSKV" length="2" name="MWSKV" sourceType="STRING" talendType="id_String" xmi:id="_zB5nPK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nPa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Output tax code" comment="Output Tax Code for Non-Taxable Transactions" label="MWSKA" length="2" name="MWSKA" sourceType="STRING" talendType="id_String" xmi:id="_caXgXqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgX6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Output tax code" comment="Output Tax Code for Non-Taxable Transactions" label="MWSKA" length="2" name="MWSKA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nPq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nP69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Import Data in PO" comment="Foreign Trade: Import Data Control in MM Purchase Orders" label="IMPDA" length="1" name="IMPDA" sourceType="STRING" talendType="id_String" xmi:id="_caXgYKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgYaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Import Data in PO" comment="Foreign Trade: Import Data Control in MM Purchase Orders" label="IMPDA" length="1" name="IMPDA" sourceType="STRING" talendType="id_String" xmi:id="_zB5nQK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nQa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Negative Postings Permitted" comment="Indicator: Negative Postings Permitted" label="XNEGP" length="1" name="XNEGP" sourceType="STRING" talendType="id_String" xmi:id="_caXgYqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgY6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Negative Postings Permitted" comment="Indicator: Negative Postings Permitted" label="XNEGP" length="1" name="XNEGP" sourceType="STRING" talendType="id_String" xmi:id="_zB5nQq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nQ69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Control area can be input" comment="Indicator: Can credit control area be overwritten?" label="XKKBI" length="1" name="XKKBI" sourceType="STRING" talendType="id_String" xmi:id="_caXgZKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgZaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Control area can be input" comment="Indicator: Can credit control area be overwritten?" label="XKKBI" length="1" name="XKKBI" sourceType="STRING" talendType="id_String" xmi:id="_zB5nRK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nRa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Extended withholding tax active" comment="Indicator: Extended withholding tax active" label="WT_NEWWT" length="1" name="WT_NEWWT" sourceType="STRING" talendType="id_String" xmi:id="_caXgZqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgZ6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Extended withholding tax active" comment="Indicator: Extended withholding tax active" label="WT_NEWWT" length="1" name="WT_NEWWT" sourceType="STRING" talendType="id_String" xmi:id="_zB5nRq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nR69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Posting date for parking" comment="Procedure for Setting the Posting Date" label="PP_PDATE" length="1" name="PP_PDATE" sourceType="STRING" talendType="id_String" xmi:id="_caXgaKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgaaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Posting date for parking" comment="Procedure for Setting the Posting Date" label="PP_PDATE" length="1" name="PP_PDATE" sourceType="STRING" talendType="id_String" xmi:id="_zB5nSK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nSa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Inflation Method" comment="Inflation Method" label="INFMT" length="4" name="INFMT" sourceType="STRING" talendType="id_String" xmi:id="_caXgaqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXga6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Inflation Method" comment="Inflation Method" label="INFMT" length="4" name="INFMT" sourceType="STRING" talendType="id_String" xmi:id="_zB5nSq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nS69rEe6GTo2vqeqCrg"/>
         <refTable>J_1AINFMET</refTable>
       </feature>
-      <feature businessName="Field Status Variant" comment="Funds reservation field status var." label="FSTVARE" length="4" name="FSTVARE" sourceType="STRING" talendType="id_String" xmi:id="_caXgbKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgbaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Field Status Variant" comment="Funds reservation field status var." label="FSTVARE" length="4" name="FSTVARE" sourceType="STRING" talendType="id_String" xmi:id="_zB5nTK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nTa9rEe6GTo2vqeqCrg"/>
         <refTable>TREV</refTable>
       </feature>
-      <feature businessName="Copying control GR" comment="Foreign trade: Import data copying control for GR" label="KOPIM" length="1" name="KOPIM" sourceType="STRING" talendType="id_String" xmi:id="_caXgbqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgb6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Copying control GR" comment="Foreign trade: Import data copying control for GR" label="KOPIM" length="1" name="KOPIM" sourceType="STRING" talendType="id_String" xmi:id="_zB5nTq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nT69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Import data GR" comment="Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt" label="DKWEG" length="1" name="DKWEG" sourceType="STRING" talendType="id_String" xmi:id="_caXgcKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgcaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Import data GR" comment="Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt" label="DKWEG" length="1" name="DKWEG" sourceType="STRING" talendType="id_String" xmi:id="_zB5nUK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nUa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Method offsttng acct" comment="Method for offsetting account determination" label="OFFSACCT" length="1" name="OFFSACCT" sourceType="INTEGER" talendType="id_Integer" xmi:id="_caXgcqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgc6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Method offsttng acct" comment="Method for offsetting account determination" label="OFFSACCT" length="1" name="OFFSACCT" sourceType="INTEGER" talendType="id_Integer" xmi:id="_zB5nUq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nU69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="BA variant" comment="Additional settings variant for bus.area financial statemnts" label="BAPOVAR" length="2" name="BAPOVAR" sourceType="STRING" talendType="id_String" xmi:id="_caXgdKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgdaufEe6GTo2vqeqCrg"/>
+      <feature businessName="BA variant" comment="Additional settings variant for bus.area financial statemnts" label="BAPOVAR" length="2" name="BAPOVAR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nVK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nVa9rEe6GTo2vqeqCrg"/>
         <refTable>TGSB_CUS</refTable>
       </feature>
-      <feature businessName="Cost of sales accounting actv." comment="Cost of sales accounting status" label="XCOS" length="1" name="XCOS" sourceType="STRING" talendType="id_String" xmi:id="_caXgdqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgd6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Cost of sales accounting actv." comment="Cost of sales accounting status" label="XCOS" length="1" name="XCOS" sourceType="STRING" talendType="id_String" xmi:id="_zB5nVq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nV69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Accts recble pled. active" comment="Accounts Receivable Pledging Active" label="XCESSION" length="1" name="XCESSION" sourceType="STRING" talendType="id_String" xmi:id="_caXgeKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgeaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Accts recble pled. active" comment="Accounts Receivable Pledging Active" label="XCESSION" length="1" name="XCESSION" sourceType="STRING" talendType="id_String" xmi:id="_zB5nWK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nWa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Enable amount split" comment="Enable Amount Split" label="XSPLT" length="1" name="XSPLT" sourceType="STRING" talendType="id_String" xmi:id="_caXgequfEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXge6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Enable amount split" comment="Enable Amount Split" label="XSPLT" length="1" name="XSPLT" sourceType="STRING" talendType="id_String" xmi:id="_zB5nWq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nW69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Surcharge Method" comment="Surcharge Calculation Method" label="SURCCM" length="1" name="SURCCM" sourceType="STRING" talendType="id_String" xmi:id="_caXgfKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgfaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Surcharge Method" comment="Surcharge Calculation Method" label="SURCCM" length="1" name="SURCCM" sourceType="STRING" talendType="id_String" xmi:id="_zB5nXK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nXa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Document Type for Provisions for Taxes" comment="Document Type for Provisions for Taxes on Services Received" label="DTPROV" length="2" name="DTPROV" sourceType="STRING" talendType="id_String" xmi:id="_caXgfqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgf6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Document Type for Provisions for Taxes" comment="Document Type for Provisions for Taxes on Services Received" label="DTPROV" length="2" name="DTPROV" sourceType="STRING" talendType="id_String" xmi:id="_zB5nXq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nX69rEe6GTo2vqeqCrg"/>
         <refTable>T003</refTable>
       </feature>
-      <feature businessName="Document Type for JV (Amount Correction)" comment="Document Type for Journal Voucher (Amount Correction)" label="DTAMTC" length="2" name="DTAMTC" sourceType="STRING" talendType="id_String" xmi:id="_caXggKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXggaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Document Type for JV (Amount Correction)" comment="Document Type for Journal Voucher (Amount Correction)" label="DTAMTC" length="2" name="DTAMTC" sourceType="STRING" talendType="id_String" xmi:id="_zB5nYK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nYa9rEe6GTo2vqeqCrg"/>
         <refTable>T003</refTable>
       </feature>
-      <feature businessName="Document Type for JV (Tax Code)" comment="Document Type for Journal Voucher (Tax Code Correction)" label="DTTAXC" length="2" name="DTTAXC" sourceType="STRING" talendType="id_String" xmi:id="_caXggqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgg6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Document Type for JV (Tax Code)" comment="Document Type for Journal Voucher (Tax Code Correction)" label="DTTAXC" length="2" name="DTTAXC" sourceType="STRING" talendType="id_String" xmi:id="_zB5nYq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nY69rEe6GTo2vqeqCrg"/>
         <refTable>T003</refTable>
       </feature>
-      <feature businessName="Remittance Challan Document Type" comment="Document Type for Remittance Challans" label="DTTDSP" length="2" name="DTTDSP" sourceType="STRING" talendType="id_String" xmi:id="_caXghKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXghaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Remittance Challan Document Type" comment="Document Type for Remittance Challans" label="DTTDSP" length="2" name="DTTDSP" sourceType="STRING" talendType="id_String" xmi:id="_zB5nZK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nZa9rEe6GTo2vqeqCrg"/>
         <refTable>T003</refTable>
       </feature>
-      <feature businessName="Deferred Tax Rule" comment="Deferred Tax Rule" label="DTAXR" length="4" name="DTAXR" sourceType="STRING" talendType="id_String" xmi:id="_caXghqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgh6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Deferred Tax Rule" comment="Deferred Tax Rule" label="DTAXR" length="4" name="DTAXR" sourceType="STRING" talendType="id_String" xmi:id="_zB5nZq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nZ69rEe6GTo2vqeqCrg"/>
         <refTable>T007DT</refTable>
       </feature>
-      <feature businessName="Tax Reporting Date Active" comment="Tax Reporting Date Active in Documents" label="XVATDATE" length="1" name="XVATDATE" sourceType="STRING" talendType="id_String" xmi:id="_caXgiKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgiaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Tax Reporting Date Active" comment="Tax Reporting Date Active in Documents" label="XVATDATE" length="1" name="XVATDATE" sourceType="STRING" talendType="id_String" xmi:id="_zB5naK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5naa9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Manage Posting Period for CoCode/Ledger" comment="Manage Variant of Posting Period for Company Code/Ledger" label="PST_PER_VAR" length="1" name="PST_PER_VAR" sourceType="STRING" talendType="id_String" xmi:id="_caXgiqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgi6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Manage Posting Period for CoCode/Ledger" comment="Manage Variant of Posting Period for Company Code/Ledger" label="PST_PER_VAR" length="1" name="PST_PER_VAR" sourceType="STRING" talendType="id_String" xmi:id="_zB5naq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5na69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Shopping Cart" comment="G/L account authorization check in shopping cart" label="XBBSC" length="1" name="XBBSC" sourceType="STRING" talendType="id_String" xmi:id="_caXgjKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgjaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Shopping Cart" comment="G/L account authorization check in shopping cart" label="XBBSC" length="1" name="XBBSC" sourceType="STRING" talendType="id_String" xmi:id="_zB5nbK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nba9rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Hide Entry in Input Help" comment="Hide Entry in Value Help" label="F_OBSOLETE" length="1" name="F_OBSOLETE" sourceType="STRING" talendType="id_String" xmi:id="_caXgjqufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgj6ufEe6GTo2vqeqCrg"/>
+      <feature businessName="Hide Entry in Input Help" comment="Hide Entry in Value Help" label="F_OBSOLETE" length="1" name="F_OBSOLETE" sourceType="STRING" talendType="id_String" xmi:id="_zB5nbq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nb69rEe6GTo2vqeqCrg"/>
       </feature>
-      <feature businessName="Activate AA Derivation" comment="Activate Account Assignment Derivation in Funds Management" label="FM_DERIVE_ACC" length="1" name="FM_DERIVE_ACC" sourceType="STRING" talendType="id_String" xmi:id="_caXgkKufEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
-        <initialValue xmi:id="_caXgkaufEe6GTo2vqeqCrg"/>
+      <feature businessName="Activate AA Derivation" comment="Activate Account Assignment Derivation in Funds Management" label="FM_DERIVE_ACC" length="1" name="FM_DERIVE_ACC" sourceType="STRING" talendType="id_String" xmi:id="_zB5ncK9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nca9rEe6GTo2vqeqCrg"/>
       </feature>
     </ownedElement>
+    <ownedElement id="_xqM0EK9rEe6GTo2vqeqCrg" label="ZFAGL_011PC" name="ZFAGL_011PC" tableType="TABLE" xmi:id="_zB5ncq9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTable">
+      <feature businessName="VERSN" comment="Financial Statement Version" key="true" label="VERSN" length="4" name="VERSN" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5nc69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5ndK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="ID" comment="Internal: Node ID" key="true" label="ID" length="6" name="ID" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_zB5nda9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5ndq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="TYPE" comment="Node type" label="TYPE" length="4" name="TYPE" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5nd69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5neK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="ERGSL" comment="Financial Statement Item" label="ERGSL" length="10" name="ERGSL" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5nea9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5neq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="PARENT" comment="Internal: Node ID" label="PARENT" length="6" name="PARENT" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_zB5ne69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nfK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="CHILD" comment="Internal: Node ID" label="CHILD" length="6" name="CHILD" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_zB5nfa9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nfq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="NEXTN" comment="Internal: Node ID" label="NEXTN" length="6" name="NEXTN" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_zB5nf69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5ngK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="STUFE" comment="Financial statement item hierarchy level" label="STUFE" length="2" name="STUFE" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="BIG_INTEGER" talendType="id_BigDecimal" xmi:id="_zB5nga9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5ngq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="SUMME" comment="Is the total to be displayed? If yes, where?" label="SUMME" length="1" name="SUMME" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5ng69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nhK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="SIGN" comment="Change of sign (+/-)" label="SIGN" length="1" name="SIGN" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5nha9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5nhq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="AEDAT" comment="Date of Last Change" label="AEDAT" length="8" name="AEDAT" pattern="&quot;yyyy-MM-dd&quot;" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="DATE" talendType="id_Date" xmi:id="_zB5nh69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5niK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="USNAM" comment="User Name" label="USNAM" length="12" name="USNAM" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;true&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;true&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5nia9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5niq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="ODQ_CHANGEMODE" comment="Change Mode for a Data Record in the Delta" label="ODQ_CHANGEMODE" length="1" name="ODQ_CHANGEMODE" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;false&#10;&#10;" sourceType="STRING" talendType="id_String" xmi:id="_zB5ni69rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5njK9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <feature businessName="ODQ_ENTITYCNTR" comment="Number of Data Units (Data Records for Example)" label="ODQ_ENTITYCNTR" length="19" name="ODQ_ENTITYCNTR" properties="ID_COLUMN_CAN_BE_USED_FOR_INTERVAL_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_IS_MANDATORY_FOR_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_PATTERN_SELECTION&#10;&#10;false&#10;&#10;ID_COLUMN_CAN_BE_USED_FOR_SINGLEL_SELECTION&#10;&#10;false&#10;&#10;" sourceType="BIG_DECIMAL" talendType="id_BigDecimal" xmi:id="_zB5nja9rEe6GTo2vqeqCrg" xsi:type="TalendMetadata:SAPTableField">
+        <initialValue xmi:id="_zB5njq9rEe6GTo2vqeqCrg"/>
+      </feature>
+      <additionalProperties key="CONTENT_TYPE" value="METADATA_SAP_CONTENT_EXTRACTOR" xmi:id="_zB5nj69rEe6GTo2vqeqCrg"/>
+    </ownedElement>
   </TalendMetadata:GenericPackage>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0e987467-58cb-4eeb-bf59-cd150baca389"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CZhQYarbeIdIRtHHoan8Juhpm+hh6XNzjGt7W8Dg7murZhTK6ag2ldW/50gY97lrK0oWIpyt8Y6/&#13;
-/+Q6H/A5uA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6456a41d-aa39-46ad-bf69-d7bdb9923366"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3K893VBT1B0wHAhUrHyhpV+rR+PoXxMj3VD5tDCUqoVEGu09brrVUWotsPuCQ6TyOidQTGWDizGl&#13;
-xI/EkaIvkA==</DigestValue></Reference></SignedInfo><SignatureValue>iiZUV7S+Dk4tOgGEmcGfjpIZl+ps2bDeXmQU5pMXDnVEj8snGPnLIbAGosCz/3lDmSnEZrndvgKo&#13;
-OMqjhGrsYQUjROITSpBQFhaecM4aSEZEfa8c3nvmx8EOu5VSttLSgZY8NLy8Y7wGA9QeBuT3dVeX&#13;
-imYhSDS3kwKHqYCJ/I1Sz1OSzI0dQPeBwq5JAjsXSJcBJYX7muN7Z6fOm4uUvChaL84elbanKG8P&#13;
-wS8FbsCucZmWz+7dkY32Fox8WaNMwgnCXrPcHwqDscgd4qvEHefpBkZY1BXm4q0kEAPQg6WDIbVz&#13;
-qMbJnaVVkhbG+kblT2hKZvDYDtCKIbt8+t0tTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e4e8a088-0cba-4299-9090-c1e9dfbc3bb7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>htHSHVLgWscFuyzh9HVIUBS5aeF6sW7DzgJLTUVbNBJjguodmUFqIKpufMeVYeS70WZ4uAvhuAO9&#13;
+7iqzh5BO7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2f581237-bd48-4d58-a2c0-7c728c4d763d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kEUeybiAoKAyS6+iSeS0kqKuOKKVV6pW7JIDiwdF7QE1I9GfbKp6iZ3Jp6Lgisi5M7SNpcWMxV/T&#13;
+KY/IotQWJQ==</DigestValue></Reference></SignedInfo><SignatureValue>leWCn/qfH9igNbl57NpIphrboGgThYhLKtoqA8BHNXiUlYdIm/rrHh1MICnghT+7jz9WrobpFNIJ&#13;
+0EPYVaHV0mnzEe/x2MH8+WhKi7pCAuoq5QS1JQref9z6gXQrWtSAhlWFssH0s56VSDPg/wjfeI4A&#13;
+QPmqPEdZcLOCSZOrx8Ys5JUj0ILaJV7mQArjUNRTCxAfF/czBkHzuEpJM1AL3bHtNq3OswKpbHHj&#13;
+NGrlkiH0ApKQqW/XL4wffZr6TS88NhHV81eINQlQT/fzNfah7NHYzGAnVum+phtUMyFxKA3Dvjrn&#13;
+yuA0OBbD/4QXZ335jNGvSH9019XXMvivnB+WQQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -316,4 +361,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6456a41d-aa39-46ad-bf69-d7bdb9923366" Target="#_0e987467-58cb-4eeb-bf59-cd150baca389"><Timestamp>2024-01-05 08:00:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2f581237-bd48-4d58-a2c0-7c728c4d763d" Target="#_e4e8a088-0cba-4299-9090-c1e9dfbc3bb7"><Timestamp>2024-01-10 03:53:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
