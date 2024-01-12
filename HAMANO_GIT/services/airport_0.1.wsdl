@@ -23,6 +23,18 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element
+				name="getAirportInformationByISOCountryCodeFault">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element
+							name="getAirportInformationByISOCountryCodeFault"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -33,11 +45,15 @@
 		<wsdl:part name="parameters" element="tns:getAirportInformationByISOCountryCodeResponse"></wsdl:part>
 	</wsdl:message>
 
+	<wsdl:message name="getAirportInformationByISOCountryCodeFault">
+		<wsdl:part name="parameters" element="tns:getAirportInformationByISOCountryCodeFault"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="airportPortType">
 		<wsdl:operation name="getAirportInformationByISOCountryCode">
 			<wsdl:input message="tns:getAirportInformationByISOCountryCodeRequest"></wsdl:input>
 			<wsdl:output message="tns:getAirportInformationByISOCountryCodeResponse"></wsdl:output>
-		</wsdl:operation>
+            <wsdl:fault name="fault" message="tns:getAirportInformationByISOCountryCodeFault"></wsdl:fault>
+        </wsdl:operation>
 	</wsdl:portType>
 
 	<wsdl:binding name="airportSoap" type="tns:airportPortType">

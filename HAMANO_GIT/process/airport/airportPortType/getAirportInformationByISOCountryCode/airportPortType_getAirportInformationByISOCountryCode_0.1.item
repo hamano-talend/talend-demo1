@@ -115,16 +115,6 @@
   </parameters>
   <node componentName="tESBProviderRequest" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tESBProviderRequest_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tESBProviderRequest"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.100 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="ESB/Web Services"/>
-    <elementParameter field="CHECK" name="START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tESBProviderRequest"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_2e0psK33Ee6GTo2vqeqCrg - _2feJ8K33Ee6GTo2vqeqCrg - _okSzEK34Ee6GTo2vqeqCrg"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
@@ -155,12 +145,15 @@
     <metadata connector="FLOW" name="airport_response">
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
     </metadata>
+    <metadata connector="FLOW" name="fault_message">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
         <nodes expression="" name="payload" type="id_Document" xpath="row1/payload">
           <children main="true" name="tns:getAirportInformationByISOCountryCodeRequest" type="id_String" xpath="row1.payload:/tns:getAirportInformationByISOCountryCodeRequest">
             <children defaultValue="http://www.talend.org/service/" name="tns" nodeType="NAME_SPACE" type="id_String" xpath="row1.payload:/tns:getAirportInformationByISOCountryCodeRequest/xmlns:tns"/>
-            <children lookupOutgoingConnections="//@node.1/@nodeData/@connections.0" loop="true" name="in" type="id_String" xpath="row1.payload:/tns:getAirportInformationByISOCountryCodeRequest/in"/>
+            <children lookupOutgoingConnections="//@node.1/@nodeData/@connections.0" loop="true" name="in" outgoingConnections="//@node.1/@nodeData/@connections.2" type="id_String" xpath="row1.payload:/tns:getAirportInformationByISOCountryCodeRequest/in"/>
           </children>
         </nodes>
       </inputTrees>
@@ -176,9 +169,18 @@
           </children>
         </nodes>
       </outputTrees>
+      <outputTrees activateCondensedTool="true" name="fault_message" rejectInnerJoin="true">
+        <nodes expression="" name="payload" type="id_Document" xpath="fault_message/payload">
+          <children main="true" name="tns:getAirportInformationByISOCountryCodeResponse" type="id_String" xpath="fault_message.payload:/tns:getAirportInformationByISOCountryCodeResponse" xsi:type="TalendXMLMap:OutputTreeNode">
+            <children defaultValue="http://www.talend.org/service/" name="tns" nodeType="NAME_SPACE" type="id_String" xpath="fault_message.payload:/tns:getAirportInformationByISOCountryCodeResponse/xmlns:tns" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="[row1.payload:/tns:getAirportInformationByISOCountryCodeRequest/in]" incomingConnections="//@node.1/@nodeData/@connections.2" loop="true" name="out" type="id_String" xpath="fault_message.payload:/tns:getAirportInformationByISOCountryCodeResponse/out" xsi:type="TalendXMLMap:OutputTreeNode"/>
+          </children>
+        </nodes>
+      </outputTrees>
       <varTables minimized="true" name="Var"/>
       <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1" target="//@node.1/@nodeData/@inputTrees.1/@nodes.0" xsi:type="TalendXMLMap:LookupConnection"/>
       <connections source="//@node.1/@nodeData/@inputTrees.1/@nodes.1" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1" target="//@node.1/@nodeData/@outputTrees.1/@nodes.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
   <node componentName="tESBProviderResponse" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
@@ -191,16 +193,6 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tFileInputDelimited"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="File/Input"/>
-    <elementParameter field="CHECK" name="START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tFileInputDelimited"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_R_fXIK39Ee6GTo2vqeqCrg"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -264,13 +256,26 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tESBProviderFault" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tESBProviderFault_1"/>
+    <elementParameter field="TEXT" name="ESB_FAULT_TITLE" value="&quot;No airport found&quot;"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tESBProviderFault_1">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tESBProviderRequest_1" offsetLabelX="0" offsetLabelY="0" source="tESBProviderRequest_1" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="airport_response" lineStyle="0" metaname="airport_response" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tESBProviderResponse_1">
+  <connection connectorName="FLOW" label="airport_response" lineStyle="0" metaname="airport_response" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tXMLMap_1" target="tESBProviderResponse_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="airport_response"/>
+  </connection>
+  <connection connectorName="FLOW" label="fault_message" lineStyle="0" metaname="fault_message" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tXMLMap_1" target="tESBProviderFault_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="fault_message"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -281,13 +286,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_017f049f-d75b-4a54-8dcb-1680bfe31cfa"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+EuyIYGHqLPRq2bLMRNY3/KtsNeKRbqOLcGJUUiaI3tRuVsVUp/GBi9oXPmhwHYrsomt1R89sFF3&#13;
-Ig8x/gSDWw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_46eaa220-4301-41b7-b466-c8bdff926b75"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6PJHCf+AjCa525EBMptw4skB5g67L8T32DbsrBJsCHdBneN6tiEIPxuFMay+Gw2FHdbzYYIOqk3K&#13;
-B4JQJLupdg==</DigestValue></Reference></SignedInfo><SignatureValue>JMc/9RqxnFOXn6WnIiWOm2km68Wtdr0DuybVTv8urxDhb0OA2XX8Qj3uER8/YUCwuE78hc1iEszI&#13;
-cpWzLEAR+JFKNmtHIY1+/+5lhnry9B68IleW6nLr3167PjUwM5fDjcb71LHotFQ8PPKhvBdNvSxV&#13;
-UfWgykohSWz+n1YafY4d2u3C3zRM1NQ1njqJqt0X/n6+EvyOklL0eOgPl5/Krge4ejzYiUDhW5GW&#13;
-9zUeW0oREIidc1qJiSzzOPadVPxqTcqWXrJlz52SRKSq+XfuoAbIkcVySBsmd1KswlD1l/O9DfJa&#13;
-gO/7c17x7M+//dc8IlSeNup4BkwI6ItI+ALUlQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f6975566-f8fa-4a97-93a2-4238a146e7c8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Hi+4n/sP4gECEmHEHDRBYBfNTHIaJX2LRj/ZsEY4+BPSddpXw7LYHQ+iJsye1YGd20YX3Ucaidwx&#13;
+wgSMml4lTQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a3412a36-64c1-4b73-b967-58ef89937c93"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bIEHPitHIS+J0Z5X/6qn+tR7AeHuTNYb9h7K+eA+PIcBOSZ1xChykHXoSKsCJf0LEZK+u+9vq48N&#13;
+e5Yb+NfS6w==</DigestValue></Reference></SignedInfo><SignatureValue>VDN0fFxaVmKNm8d01dJz6FVT5kUdUEumu1bgcUDX/Iz5uGsRh3vcq30y/Bf+X3WNc54xc2NjeTfw&#13;
+dYpgyQ6SCBYg27TyDTsMWcBx9eBTZbLkiux5a44liX2/WCfOb8z+G8waWL8LHNXOoB/enzb2kPfh&#13;
+tpNBOkATwplaqj5TtBG8xO7rWjsAImEtaAb0VCewUYZem0Omd2xD6DkIs5ITgiZXeL1c2R9rek7M&#13;
+oFBmh+ZeQbxbxQP1p1Gertrx73vstvzvs7lQByL6UPo+JpObYcKJudM0iSn1O02Z2T+Yz1X4lu2L&#13;
+q1rd+zUQv3G1rjlwZ5AchsJepdbIcgqQMa9G3w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -309,4 +314,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_46eaa220-4301-41b7-b466-c8bdff926b75" Target="#_017f049f-d75b-4a54-8dcb-1680bfe31cfa"><Timestamp>2024-01-08 08:21:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a3412a36-64c1-4b73-b967-58ef89937c93" Target="#_f6975566-f8fa-4a97-93a2-4238a146e7c8"><Timestamp>2024-01-11 12:16:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
