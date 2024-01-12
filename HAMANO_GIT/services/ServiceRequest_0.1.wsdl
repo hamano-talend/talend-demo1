@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="ServiceRequest"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="invokeAnytypeRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="invokeAnytypeResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="invokeAnytypeRequest">
+		<wsdl:part name="parameters" element="tns:invokeAnytypeRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="invokeAnytypeResponse">
+		<wsdl:part name="parameters" element="tns:invokeAnytypeResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="TEST_ProviderJobSoapBinding">
+		<wsdl:operation name="invokeAnytype">
+			<wsdl:input message="tns:invokeAnytypeRequest"></wsdl:input>
+			<wsdl:output message="tns:invokeAnytypeResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="ServiceRequestBinding" type="tns:TEST_ProviderJobSoapBinding">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="invokeAnytype">
+			<soap:operation soapAction="http://www.talend.org/service/invokeAnytype" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="ServiceRequest">
+		<wsdl:port name="ServiceRequestPort" binding="tns:ServiceRequestBinding">
+			<soap:address location="http://127.0.0.1.8088/esb/provider" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

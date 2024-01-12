@@ -485,6 +485,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_FaSa0LEWEe6Ixqy5QG2HPg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_vOfRkLEWEe6Ixqy5QG2HPg",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_FfAU8Jp4EeqFC4H86CdFwA",
     "version" : "0.1",
     "type" : "job"
@@ -990,6 +1001,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_XkKkwLErEe6Ixqy5QG2HPg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dtFJ0K20Ee6loamWkGT3TQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dtFJ0K20Ee6loamWkGT3TQ - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "__6GE4KyEEe66m88KDuZPDg",
     "version" : "0.1",
     "type" : "job"
@@ -1014,9 +1040,13 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_VYJPoLBbEe6Ixqy5QG2HPg",
+    "id" : "_Rrwq8LD_Ee6Ixqy5QG2HPg",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_Rrwq8LD_Ee6Ixqy5QG2HPg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_VYJPoLBbEe6Ixqy5QG2HPg - 64K",
     "version" : "Latest",
@@ -1074,6 +1104,17 @@
     "id" : "_01yzIAizEe6loaKge7JqUQ - Products_metadata",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_c-zWMLDjEe6Ixqy5QG2HPg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_mqYgILDiEe6Ixqy5QG2HPg - _1gYrELDiEe6Ixqy5QG2HPg - _1gYrEbDiEe6Ixqy5QG2HPg",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -1409,6 +1450,17 @@
     "id" : "_GymiUAEyEe6loaKge7JqUQ - metadata",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_o4SSkLEYEe6Ixqy5QG2HPg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DOdxkLEYEe6Ixqy5QG2HPg",
+    "version" : "Latest",
+    "type" : "mapper"
   } ]
 }, {
   "baseItem" : {
