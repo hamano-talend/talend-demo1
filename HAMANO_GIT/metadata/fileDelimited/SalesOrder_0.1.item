@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="US-ASCII" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="C:/Temp/SalesOrder.csv" FirstLineCaption="true" Format="WINDOWS" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" dataPackage="_vrTdIf75Ee6h1_kc0GdnAg" id="_vrSPAP75Ee6h1_kc0GdnAg" name="SalesOrder" xmi:id="_vrTdIP75Ee6h1_kc0GdnAg"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_vrTdIP75Ee6h1_kc0GdnAg" name="default" xmi:id="_vrTdIf75Ee6h1_kc0GdnAg">
+    <ownedElement id="_j4y4YP75Ee6h1_kc0GdnAg" label="metadata" xmi:id="_vrTdIv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="ORDER_ID" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdI_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PARTN_ROLE" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdJP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PARTN_NUMB" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdJf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_NUMBER5" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdJv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TITLE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdJ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NAME2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdKP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NAME_2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdKf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NAME_3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdKv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NAME_4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdK_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STREET" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdLP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COUNTRY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdLf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COUNTR_ISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdLv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="POSTL_CODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdL_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="POBX_PCD" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdMP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="POBX_CTY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdMf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CITY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdMv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DISTRICT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdM_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REGION" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdNP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_BOX" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdNf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TELEPHONE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdNv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TELEPHONE21" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdN_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TELEBOX" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdOP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FAX_NUMBER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdOf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TELETEX_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdOv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TELEX_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdO_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LANGU" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdPP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LANGU_ISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdPf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNLOAD_PT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdPv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRANSPZONE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdP_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXJURCODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdQP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADDRESS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdQf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRIV_ADDR" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdQv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADDR_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdQ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADDR_ORIG" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdRP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADDR_LINK" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdRf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJTYPE4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdRv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJKEY5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdR_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFLOGSYS4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdSP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_NUMBER2" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdSf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HG_LV_ITEM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdSv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_ITM_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdS_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATERIAL" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdTP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALT_TO_ITM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdTf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_MAT22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdTv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BATCH" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdT_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_GROUP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdUP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PART_DLV" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdUf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REASON_REJ" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdUv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_BLOCK2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdU_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_DATE2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdVP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLANT" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdVf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STORE_LOC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdVv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_QTY" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdV_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_QU" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdWP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="T_UNIT_ISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdWf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITEM_CATEG" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdWv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHORT_TEXT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdW_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdXP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdXf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdXv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdX_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdYP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROD_HIERA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdYf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATL_GROUP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdYv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_NO_C2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdY_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_DATE2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdZP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_METHOD2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdZf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdZv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_NO_S2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdZ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_DAT_S2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdaP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_METH_S2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdaf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_1_S2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdav75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="POITM_NO_S1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTda_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_GRP2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdbP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_GROUP2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdbf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALES_DIST2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdbv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_LIST2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdb_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INCOTERMS12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdcP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INCOTERMS22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdcf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDCOMP_IN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdcv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_SCHED2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdc_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INVO_SCHED2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTddP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MN_INVOICE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTddf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EX_RATE_FI" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTddv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADD_VAL_DY2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdd_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIX_VAL_DY2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdeP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PMNTTRMS2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdef75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PYMT_METH2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdev75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ACCNT_ASGN2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTde_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCHG_RATE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdfP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_DATE2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdff75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SERV_DATE2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTdfv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DUNN_KEY2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdf_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DUNN_BLOCK2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdgP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROMOTION1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdgf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PMTGAR_PRO2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdgv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DOC_NUM_FI2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdg_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEPARTM_NO2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdhP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REC_POINT2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdhf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdhv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdh_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP32" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdiP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP42" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdif75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP52" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdiv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_TIME2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdi_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALES_UNIT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdjP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="S_UNIT_ISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdjf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRG_QTY_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdjv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRGQTY_DEN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdj_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RNDDLV_QTY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdkP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEVAMNT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdkf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEVPER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdkv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEV_DAY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdk_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="USAGE_IND" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdlP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIXED_QUAN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdlf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNLMT_DLV" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdlv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OVERDLVTOL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdl_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNDDLV_TOL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdmP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DIVISION2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdmf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALQTYNUM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdmv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALQTYDEN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdm_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GROSS_WGHT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdnP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NET_WEIGHT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdnf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNTOF_WGHT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdnv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNOF_WTISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdn_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VOLUME" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdoP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VOLUNIT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdof75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VOLUNITISO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdov75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_PRIO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdo_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHIP_POINT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdpP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ROUTE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdpf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CREATED_BY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdpv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdp_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdqP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS32" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdqf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS42" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdqv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS52" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdq_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS62" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdrP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS72" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdrf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS82" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdrv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS92" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdr_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_PR_GRP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdsP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdsf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIXDAT_QTY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdsv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BOMEXPL_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTds_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RESANALKEY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdtP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQMTS_TYP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdtf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NO_GR_POST" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdtv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUS_TRANST" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdt_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OVERHD_KEY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTduP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTG_SHEET" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTduf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATFRGTGRP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTduv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLDLVSHDIN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdu_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEQ_NO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdvP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BIL_FORM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdvf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLI_PROFIL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdvv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REV_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdv_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BEGDEM_PER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdwP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_REF_MAT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdwf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJTYPE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdwv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJKEY2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdw_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFLOGSYS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdxP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDER_PROB" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdxf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAX_PL_DLV" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdxv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CFOP_CODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdx_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWICMS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdyP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWIPI" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdyf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SD_TAXCODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdyv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ASSORT_MOD" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdy_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COMP_QUANT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdzP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_VAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdzf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CURRENCY5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdzv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CURR_ISO3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTdz_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROFIT_CTR" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd0P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDERID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd0f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WBS_ELEM2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd0v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEPREC_PER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd0_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd1P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC_IT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd1f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC_CA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd1v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_MAT35" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd1_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCH_RATE_FI_V2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd2P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCHG_RATE_V2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd2f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITEMGUID_ATP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd2v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_CONTR" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd2_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_CON_I" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd3P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONFIG_ID7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd3f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INST_ID5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd3v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_EXT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd3_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_GUID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd4P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_VERS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd4f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_EXT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd4v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_GUID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd4_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_VERS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd5P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUNC_AREA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd5f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALTERN_BOM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd5v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FKK_CONACCT2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd5_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EAN_UPC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd6P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRODCAT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd6f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHIP_TYPE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd6v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="S_PROC_IND2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd6_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUNC_AREA_LONG" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd7P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_REL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd7f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VW_UEPOS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd7v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CAMPAIGN2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd7_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLVSCHDUSE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd8P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CFOP_LONG" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd8f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SELECTION" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd8v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd8_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOG_SYSTEM_OWN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd9P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_TYPE_USAGE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd9f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWISS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd9v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_EXTERNAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd9_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_GUID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd-P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_VERSION" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd-f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_TAXCAT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd-v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_ZEROVAT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd-_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_ACTCODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd_P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_DISTTYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd_f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_TXRELCLAS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd_v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CALC_MOTIVE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTd__75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COMPREAS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeAP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUND" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeAf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUNDS_CTR" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeAv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CMMT_ITEM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeA_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GRANT_NBR" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeBP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUDGET_PERIOD" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeBf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWCOFINS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeBv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWPIS" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeB_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TREASURY_ACC_SYMBOL2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeCP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUSINESS_EVENT_TCODE2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeCf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MODIFICATION_ALLOWED2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeCv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CANCELLATION_ALLOWED2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeC_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PAYMENT_METHODS2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeDP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUSINESS_PARTNER_NO2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeDf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REPORTING_FREQ2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeDv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEPA_MANDATE_ID2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeD_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_SEGMENT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeEP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_SUBLEVL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeEf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_AGENCID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeEv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_ALTRAID" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeE_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_BEGPER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeFP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_ENDPER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeFf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_AVTYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeFv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_MAIN_ACCT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeF_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_SUB_ACCT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeGP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_BETC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeGf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_NUMBER3" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeGv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UPDATEFLAG2" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeG_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HG_LV_ITEM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeHP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_ITM_NO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeHf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATERIAL1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeHv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALT_TO_ITM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeH_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_MAT221" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeIP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BATCH1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeIf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_GROUP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeIv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PART_DLV1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeI_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REASON_REJ1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeJP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_BLOCK3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeJf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_DATE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeJv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLANT1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeJ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STORE_LOC1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeKP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_QTY1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeKf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_QU1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeKv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="T_UNIT_ISO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeK_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITEM_CATEG1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeLP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHORT_TEXT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeLf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeLv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP21" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeL_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP31" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeMP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP41" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeMf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRC_GROUP51" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeMv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROD_HIERA1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeM_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATL_GROUP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeNP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_NO_C3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeNf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_DATE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeNv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_METHOD3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeN_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeOP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PURCH_NO_S3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeOf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_DAT_S3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeOv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PO_METH_S3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeO_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_1_S3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTePP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="POITM_NO_S2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTePf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_GRP3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTePv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_GROUP3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeP_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALES_DIST3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeQP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_LIST3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeQf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INCOTERMS13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeQv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INCOTERMS23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeQ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDCOMP_IN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeRP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_SCHED3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeRf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INVO_SCHED3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeRv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MN_INVOICE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeR_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EX_RATE_FI1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeSP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ADD_VAL_DY3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeSf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIX_VAL_DY3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeSv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PMNTTRMS3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeS_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PYMT_METH3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeTP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ACCNT_ASGN3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeTf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCHG_RATE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeTv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICE_DATE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeT_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SERV_DATE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeUP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DUNN_KEY3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeUf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DUNN_BLOCK3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeUv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROMOTION2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeU_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PMTGAR_PRO3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeVP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DOC_NUM_FI3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeVf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEPARTM_NO3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeVv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REC_POINT3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeV_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeWP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeWf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP33" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeWv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP43" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeW_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTCNDGRP53" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeXP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_TIME3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeXf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALES_UNIT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeXv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRG_QTY_NO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeX_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRGQTY_DEN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeYP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RNDDLV_QTY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeYf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEVAMNT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeYv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEVPER1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeY_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAXDEV_DAY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeZP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="USAGE_IND1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeZf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIXED_QUAN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeZv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNLMT_DLV1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeZ_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OVERDLVTOL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeaP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNDDLV_TOL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeaf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DIVISION3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeav75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALQTYNUM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTea_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALQTYDEN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTebP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GROSS_WGHT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTebf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NET_WEIGHT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTebv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNTOF_WGHT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeb_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VOLUME1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTecP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VOLUNIT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTecf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_PRIO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTecv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHIP_POINT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTec_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ROUTE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTedP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTedf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTedv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS33" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTed_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS43" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeeP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS53" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeef75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS63" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeev75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS73" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTee_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS83" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTefP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAX_CLASS93" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeff75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_PR_GRP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTefv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_TYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTef_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FIXDAT_QTY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTegP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BOMEXPL_NO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTegf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RESANALKEY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTegv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQMTS_TYP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeg_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NO_GR_POST1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTehP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUS_TRANST1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTehf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OVERHD_KEY1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTehv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CSTG_SHEET1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeh_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MATFRGTGRP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeiP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLDLVSHDIN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeif75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEQ_NO1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeiv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BIL_FORM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTei_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLI_PROFIL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTejP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REV_TYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTejf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BEGDEM_PER1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTejv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PR_REF_MAT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTej_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJTYPE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTekP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJKEY3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTekf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFLOGSYS2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTekv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDER_PROB1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTek_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAX_PL_DLV1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTelP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CFOP_CODE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTelf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWICMS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTelv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWIPI1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTel_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SD_TAXCODE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTemP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ASSORT_MOD1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTemf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="COMP_QUANT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTemv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TARGET_VAL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTem_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PROFIT_CTR1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTenP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ORDERID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTenf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WBS_ELEM3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTenv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEPREC_PER1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTen_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeoP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC_IT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeof75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REF_DOC_CA1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeov75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CUST_MAT351" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeo_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCH_RATE_FI_V3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTepP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXCHG_RATE_V3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTepf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITEMGUID_ATP1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTepv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_CONTR1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTep_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAL_CON_I1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeqP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONFIG_ID8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeqf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INST_ID6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeqv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_EXT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeq_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_GUID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTerP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_VERS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTerf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_EXT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTerv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_GUID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTer_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="P_MAT_VERS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTesP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUNC_AREA1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTesf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALTERN_BOM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTesv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FKK_CONACCT3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTes_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EAN_UPC1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTetP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRODCAT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTetf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SHIP_TYPE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTetv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="S_PROC_IND3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTet_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BILL_REL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeuP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VW_UEPOS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeuf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CAMPAIGN3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeuv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLVSCHDUSE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeu_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SELECTION1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTevP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTevf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOG_SYSTEM_OWN1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTevv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_TYPE_USAGE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTev_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_EXTERNAL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTewP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_GUID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTewf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAT_ENTRD_VERSION1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTewv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_TAXCAT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTew_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_ZEROVAT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTexP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_ACTCODE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTexf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_DISTTYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTexv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOC_TXRELCLAS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTex_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CALC_MOTIVE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeyP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUND1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeyf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FUNDS_CTR1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTeyv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CMMT_ITEM1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTey_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GRANT_NBR1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTezP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUDGET_PERIOD1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTezf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWISS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTezv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWCOFINS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTez_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TAXLAWPIS1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe0P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TREASURY_ACC_SYMBOL3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe0f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUSINESS_EVENT_TCODE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe0v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MODIFICATION_ALLOWED3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe0_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CANCELLATION_ALLOWED3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe1P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PAYMENT_METHODS3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe1f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BUSINESS_PARTNER_NO3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe1v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REPORTING_FREQ3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe1_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CFOP_LONG1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe2P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEPA_MANDATE_ID3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe2f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_SEGMENT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe2v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_SUBLEVL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe2_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_AGENCID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe3P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_ALTRAID1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe3f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_BEGPER1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe3v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_ENDPER1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe3_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_AVTYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe4P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_MAIN_ACCT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe4f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_SUB_ACCT1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe4v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_BETC1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe4_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_NUMBER6" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe5P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SCHED_LINE" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe5f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_DATE" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe5v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DATE_TYPE2" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_String" xmi:id="_vrTe5_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_TIME" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe6P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_QTY" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe6f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_DLV_BL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe6v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SCHED_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe6_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_DATE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe7P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MS_DATE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe7f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOAD_DATE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe7v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GI_DATE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe7_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_TIME" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe8P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MS_TIME" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe8f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOAD_TIME" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe8v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GI_TIME" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe8_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJTYPE5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe9P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJKEY6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe9f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFLOGSYS5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe9v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_DATE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_vrTe9_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_TIME4" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Date" xmi:id="_vrTe-P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REL_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe-f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLAN_SCHED_TYPE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe-v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ITM_NUMBER7" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe-_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SCHED_LINE1" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe_P75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UPDATEFLAG3" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe_f75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe_v75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DATE_TYPE3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTe__75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_TIME1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfAP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_QTY1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfAf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REQ_DLV_BL1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfAv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SCHED_TYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfA_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfBP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MS_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfBf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOAD_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfBv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GI_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfB_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TP_TIME1" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_String" xmi:id="_vrTfCP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MS_TIME1" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_Short" xmi:id="_vrTfCf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOAD_TIME1" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_String" xmi:id="_vrTfCv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GI_TIME1" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_String" xmi:id="_vrTfC_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJTYPE6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfDP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REFOBJKEY7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfDf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_DATE1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfDv75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DLV_TIME5" length="-1" pattern="&quot;HH:mm:ss&quot;" talendType="id_String" xmi:id="_vrTfD_75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REL_TYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfEP75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PLAN_SCHED_TYPE1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_vrTfEf75Ee6h1_kc0GdnAg" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3e8477c8-f452-4ef6-9b8e-f00056db99db"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pRump49Rtswy2RW7BN68PtxYMjfyf3y/I7v60uOwUphQQNnB4msjjsoEa/aTD8LEgKhTHLvvVCOR&#13;
+FcmDOHYCRA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8e694a27-5501-4de7-985f-adba8a3e3df7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OgkoXepQYOwE/xg+xngp3Xrfqac74U8VB20EVIYKTeVX8t4KhOYVDMtfRB3dlWEfNU2lQEIgAg/w&#13;
+NL9+l0LpEA==</DigestValue></Reference></SignedInfo><SignatureValue>mty/wM4/aG3Kv6oVZAwHcIy5U65k3fDTD7S8cGfWfDIXbK3GrlyontlP8262IL/N4YToZKVEWQhW&#13;
+blAbqbeaIrdfyInj8Z3Z49+LWkb2i92xeenQMqv3EPJ7UsoQyLK1cyQFraSAXfXuZ8k2ubjhggF6&#13;
+qq8+Isq9VqJvc+B6Fgbe4ubw6u0b7cjTHr1X1FccoTnrEYhXC1zF/13HPxtVRAvYy58bh86iE3Rg&#13;
+8IFF8Wn2AFv6He423E5+hjPguktUUeuImg3cHUtGwS6Pmtz2y/6A5XfaXV2E/dw9YzPLhpXig7Wo&#13;
+TTsFsIOxegSpcWlXllRTrHRhViEjjj7mb0AG2A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8e694a27-5501-4de7-985f-adba8a3e3df7" Target="#_3e8477c8-f452-4ef6-9b8e-f00056db99db"><Timestamp>2024-04-20 12:18:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

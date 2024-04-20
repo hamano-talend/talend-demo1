@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_bBjsMbVeEe6mr92GQ9B4Xg" xmi:id="_bBjsMLVeEe6mr92GQ9B4Xg"/>
+  <TalendMetadata:GenericPackage dataManager="_bBjsMLVeEe6mr92GQ9B4Xg" xmi:id="_bBjsMbVeEe6mr92GQ9B4Xg">
+    <ownedElement id="_bBjFILVeEe6mr92GQ9B4Xg" label="row" xmi:id="_bBjsMrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="テーブル名" label="EDI_DC40_TABNAM" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsM7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="EDI_DC40_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsNLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="EDI_DC40_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsNbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="SAPリリース" label="EDI_DC40_DOCREL" length="4" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsNrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="ステータス" label="EDI_DC40_STATUS" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsN7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="方向" label="EDI_DC40_DIRECT" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsOLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="出力モード" label="EDI_DC40_OUTMOD" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsObVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="表現" label="EDI_DC40_EXPRSS" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsOrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="テストフラグ" label="EDI_DC40_TEST" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsO7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDBASベーシックタイプ" label="EDI_DC40_IDOCTYP" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsPLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDCIMの拡張" label="EDI_DC40_CIMTYP" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsPbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDMSGメッセージタイプ" label="EDI_DC40_MESTYP" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsPrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="メッセージコード" label="EDI_DC40_MESCOD" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsP7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="メッセージ機能" label="EDI_DC40_MESFCT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsQLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDI標準" label="EDI_DC40_STD" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsQbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDI標準バージョン" label="EDI_DC40_STDVRS" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsQrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDIメッセージタイプ" label="EDI_DC40_STDMES" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsQ7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="送信元ポート" label="EDI_DC40_SNDPOR" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsRLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="送信元パートナータイプ" label="EDI_DC40_SNDPRT" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsRbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="送信元ファンクション" label="EDI_DC40_SNDPFC" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsRrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="送信元パートナー番号" label="EDI_DC40_SNDPRN" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsR7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="SADR送信元アドレス" label="EDI_DC40_SNDSAD" length="21" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsSLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EDI_DC40_SNDLAD" length="70" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsSbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レシーバーポート" label="EDI_DC40_RCVPOR" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsSrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レシーバーパートナー タイプ" label="EDI_DC40_RCVPRT" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsS7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="受信者パートナー ファンクション" label="EDI_DC40_RCVPFC" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsTLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レシーバーパートナー番号" label="EDI_DC40_RCVPRN" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsTbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="SADR受信者アドレス" label="EDI_DC40_RCVSAD" length="21" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsTrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EDI_DC40_RCVLAD" length="70" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsT7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="作成日" label="EDI_DC40_CREDAT" length="8" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsULVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="作成場所" label="EDI_DC40_CRETIM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsUbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="伝送" label="EDI_DC40_REFINT" length="14" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsUrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="メッセージグループ" label="EDI_DC40_REFGRP" length="14" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsU7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EDIメッセージ" label="EDI_DC40_REFMES" length="14" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsVLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="アーカイブキー" label="EDI_DC40_ARCKEY" length="70" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsVbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="シリアライズ" label="EDI_DC40_SERIAL" length="20" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsVrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="Loop_E2MARAC002_E2MARAC002_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsV7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="Loop_E2MARAC002_E2MARAC002_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsWLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="Loop_E2MARAC002_E2MARAC002_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsWbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="Loop_E2MARAC002_E2MARAC002_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsWrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="Loop_E2MARAC002_E2MARAC002_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsW7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="Loop_E2MARAC002_E2MARAC002_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsXLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Function" label="Loop_E2MARAC002_E2MARAC002_MSGFN" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsXbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Number" label="Loop_E2MARAC002_E2MARAC002_MATNR" length="18" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsXrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Industry Sector" label="Loop_E2MARAC002_E2MARAC002_MBRSH" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsX7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Deletion Indicator" label="Loop_E2MARAC002_E2MARAC002_LVORM" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsYLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Type" label="Loop_E2MARAC002_E2MARAC002_MTART" length="4" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsYbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Base Unit of Measure" label="Loop_E2MARAC002_E2MARAC002_MEINS" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsYrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Group" label="Loop_E2MARAC002_E2MARAC002_MATKL" length="9" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsY7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Division" label="Loop_E2MARAC002_E2MARAC002_SPART" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsZLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Size/dimensions" label="Loop_E2MARAC002_E2MARAC002_GROES" length="32" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsZbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Basic material (basic constituent of a material) - obsolete" label="Loop_E2MARAC002_E2MARAC002_WRKST" length="14" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsZrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Basic Material" label="Loop_E2MARAC002_E2MARAC002_WRKST_NEW" length="48" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsZ7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Number" label="Loop_E2MARAC002_E2MARAC002_MATNR_EXTERNAL" length="40" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsaLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Version Number for MATNR Field" label="Loop_E2MARAC002_E2MARAC002_MATNR_VERSION" length="10" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsabVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="External GUID for MATNR Field" label="Loop_E2MARAC002_E2MARAC002_MATNR_GUID" length="32" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsarVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Number (40 Characters, needed f. technical reasons)" label="Loop_E2MARAC002_E2MARAC002_MATNR_LONG" length="40" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsa7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="Loop_E2MARAC002_E2MAKTC_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsbLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="Loop_E2MARAC002_E2MAKTC_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsbbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="Loop_E2MARAC002_E2MAKTC_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsbrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="Loop_E2MARAC002_E2MAKTC_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsb7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="Loop_E2MARAC002_E2MAKTC_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjscLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="Loop_E2MARAC002_E2MAKTC_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjscbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Function" label="Loop_E2MARAC002_E2MAKTC_MSGFN" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjscrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Language Key" label="Loop_E2MARAC002_E2MAKTC_SPRAS" length="1" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsc7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Material Description" label="Loop_E2MARAC002_E2MAKTC_MAKTX" length="40" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsdLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="E2IDOCENHANCEMENT000_1_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsdbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="E2IDOCENHANCEMENT000_1_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsdrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="E2IDOCENHANCEMENT000_1_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsd7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="E2IDOCENHANCEMENT000_1_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjseLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="E2IDOCENHANCEMENT000_1_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsebVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="E2IDOCENHANCEMENT000_1_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjserVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Containers for Enhancement of IDoc Types" label="E2IDOCENHANCEMENT000_1_IDENTIFIER" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjse7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Container for IDoc Enhancement" label="E2IDOCENHANCEMENT000_1_DATA" length="970" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsfLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="E2IDOCENHANCEMENT000_2_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsfbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="E2IDOCENHANCEMENT000_2_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsfrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="E2IDOCENHANCEMENT000_2_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsf7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="E2IDOCENHANCEMENT000_2_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsgLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="E2IDOCENHANCEMENT000_2_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsgbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="E2IDOCENHANCEMENT000_2_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsgrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Containers for Enhancement of IDoc Types" label="E2IDOCENHANCEMENT000_2_IDENTIFIER" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsg7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Container for IDoc Enhancement" label="E2IDOCENHANCEMENT000_2_DATA" length="970" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjshLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="E2IDOCENHANCEMENT000_3_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjshbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="E2IDOCENHANCEMENT000_3_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjshrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="E2IDOCENHANCEMENT000_3_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsh7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="E2IDOCENHANCEMENT000_3_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsiLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="E2IDOCENHANCEMENT000_3_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsibVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="E2IDOCENHANCEMENT000_3_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsirVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Containers for Enhancement of IDoc Types" label="E2IDOCENHANCEMENT000_3_IDENTIFIER" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsi7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Container for IDoc Enhancement" label="E2IDOCENHANCEMENT000_3_DATA" length="970" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsjLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="E2IDOCENHANCEMENT000_4_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsjbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="E2IDOCENHANCEMENT000_4_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsjrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="E2IDOCENHANCEMENT000_4_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsj7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="E2IDOCENHANCEMENT000_4_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjskLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="E2IDOCENHANCEMENT000_4_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjskbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="E2IDOCENHANCEMENT000_4_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjskrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Containers for Enhancement of IDoc Types" label="E2IDOCENHANCEMENT000_4_IDENTIFIER" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsk7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Container for IDoc Enhancement" label="E2IDOCENHANCEMENT000_4_DATA" length="970" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjslLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="セグメント名" label="E2IDOCENHANCEMENT000_5_SEGNAM" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjslbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="クライアント" label="E2IDOCENHANCEMENT000_5_MANDT" length="3" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjslrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="番号" label="E2IDOCENHANCEMENT000_5_DOCNUM" length="16" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsl7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="レコード番号" label="E2IDOCENHANCEMENT000_5_SEGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsmLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="親レコード番号" label="E2IDOCENHANCEMENT000_5_PSGNUM" length="6" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsmbVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="階層レベル" label="E2IDOCENHANCEMENT000_5_HLEVEL" length="2" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsmrVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Containers for Enhancement of IDoc Types" label="E2IDOCENHANCEMENT000_5_IDENTIFIER" length="30" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsm7VeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data Container for IDoc Enhancement" label="E2IDOCENHANCEMENT000_5_DATA" length="970" nullable="false" precision="-1" talendType="id_String" xmi:id="_bBjsnLVeEe6mr92GQ9B4Xg" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5085caf7-5a45-4e48-a9cb-ff2c3ec5ceb9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QCyEN6MWnAa+o1Aw0IMMJFACTrTU2qrzsUFPoDDceWrgoqF6Uh9kghfBo7GActEGJYtKaY9pR9Ci&#13;
+Fkbg3DmddQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7aaeb3bc-390f-4866-87e7-4a971723dc0d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fHNDLRzGhJQJudaGnbUDrpELx7Rp5xgLM0KFfqAxRAJHR2wYJHeOMDmEKiG9tYHvVRFAyzGY5BYY&#13;
+zau+jUsBEQ==</DigestValue></Reference></SignedInfo><SignatureValue>kvUDCcVSDsi0IIJwBmWIHt5UoSCV+wSi+sjLI+gCa2RLMvONgzHBeC1+m1IUVa4+EoLcrEl7N1o8&#13;
+dhaENzaW1U7G+Mim+VVUWHEWCdouWlfX1gg4AEjTIUrBVlC9rXZengJ+awIoDYO4ekkheRB15haH&#13;
+YZ5pjs/iVIykBwZPUg2S2PRrqHhFgDiYp6rPa2wdqPQ5OPNJcbGOF8yoI0KO8U7YCdUMmSTfK5yF&#13;
+LOabxxRbxuabSLz+83jjCEaddZz7R+mdV6LvZWic3+qIay8mN39iP2o/FIQX9qU7f/9hqL0uPRJx&#13;
+B8RILNOZMWsIp6F+bx6fGyINpOX1nEa2YMZx2Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7aaeb3bc-390f-4866-87e7-4a971723dc0d" Target="#_5085caf7-5a45-4e48-a9cb-ff2c3ec5ceb9"><Timestamp>2024-01-17 17:32:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
