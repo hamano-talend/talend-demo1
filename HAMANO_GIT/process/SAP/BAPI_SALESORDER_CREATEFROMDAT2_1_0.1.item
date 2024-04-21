@@ -395,16 +395,6 @@
   </node>
   <node componentName="tSAPBapi" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPBapi_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPBapi"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
-    <elementParameter field="CHECK" name="START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPBapi"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kufyUJrVEe6Hy5DlUSTCEg"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -656,24 +646,24 @@
     <elementParameter field="TEXT" name="LABEL" value="BAPI_SALESORDER_CREATEFROMDAT21"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSAPBapi_1"/>
-    <metadata comment="" label="row_SINGLE_PARAM_1" name="row_SINGLE_PARAM_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_SINGLE_PARAM_1" name="row_SINGLE_PARAM_1" type="OUTPUT">
       <column comment="" key="false" length="10" name="SALESDOCUMENT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_EXTENSIONEX_1" name="row_EXTENSIONEX_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_EXTENSIONEX_1" name="row_EXTENSIONEX_1" type="OUTPUT">
       <column comment="" key="false" length="30" name="STRUCTURE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART1" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART2" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART3" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART4" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_EXTENSIONIN_1" name="row_EXTENSIONIN_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_EXTENSIONIN_1" name="row_EXTENSIONIN_1" type="OUTPUT">
       <column comment="" key="false" length="30" name="STRUCTURE1" nullable="true" originalDbColumnName="STRUCTURE" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART11" nullable="true" originalDbColumnName="VALUEPART1" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART21" nullable="true" originalDbColumnName="VALUEPART2" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART31" nullable="true" originalDbColumnName="VALUEPART3" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART41" nullable="true" originalDbColumnName="VALUEPART4" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CCARD_1" name="row_ORDER_CCARD_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CCARD_1" name="row_ORDER_CCARD_1" type="OUTPUT">
       <column comment="" key="false" length="4" name="CC_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="25" name="CC_NUMBER" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="CC_VALID_T" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="date" type="id_Date" usefulColumn="true"/>
@@ -708,11 +698,11 @@
       <column comment="" key="false" length="1" name="CC_CTRL_FIELD" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="CC_IN_USE_ST" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_BLOB_1" name="row_ORDER_CFGS_BLOB_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_BLOB_1" name="row_ORDER_CFGS_BLOB_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="250" name="CONTEXT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_INST_1" name="row_ORDER_CFGS_INST_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_INST_1" name="row_ORDER_CFGS_INST_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID1" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="OBJ_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -728,7 +718,7 @@
       <column comment="" key="false" length="32" name="PERSIST_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="PERSIST_ID_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_PART_OF_1" name="row_ORDER_CFGS_PART_OF_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_PART_OF_1" name="row_ORDER_CFGS_PART_OF_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID2" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="PARENT_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID1" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -740,7 +730,7 @@
       <column comment="" key="false" length="1" name="SALES_RELEVANT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="PART_OF_GUID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_REF_1" name="row_ORDER_CFGS_REF_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_REF_1" name="row_ORDER_CFGS_REF_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="POSEX" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="CONFIG_ID3" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="ROOT_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -755,12 +745,12 @@
       <column comment="" key="false" length="32" name="CBASE_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="CBASE_ID_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_REFINST_1" name="row_ORDER_CFGS_REFINST_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_REFINST_1" name="row_ORDER_CFGS_REFINST_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="POSEX1" nullable="true" originalDbColumnName="POSEX" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="CONFIG_ID4" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID2" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_VALUE_1" name="row_ORDER_CFGS_VALUE_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_VALUE_1" name="row_ORDER_CFGS_VALUE_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID5" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID3" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="CHARC" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -771,13 +761,13 @@
       <column comment="" key="false" length="40" name="VALUE_TO" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="VALCODE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_VK_1" name="row_ORDER_CFGS_VK_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_VK_1" name="row_ORDER_CFGS_VK_1" type="OUTPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID6" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID4" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="VKEY" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="FACTOR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CONDITIONS_IN_1" name="row_ORDER_CONDITIONS_IN_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CONDITIONS_IN_1" name="row_ORDER_CONDITIONS_IN_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_ST_NO" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_COUNT" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -835,7 +825,7 @@
       <column comment="" key="false" length="0" name="FACTCONBAS" nullable="true" pattern="" precision="0" sourceType="double" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="CONDCOINHD" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CONDITIONS_INX_1" name="row_ORDER_CONDITIONS_INX_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CONDITIONS_INX_1" name="row_ORDER_CONDITIONS_INX_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER1" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_ST_NO1" nullable="true" originalDbColumnName="COND_ST_NO" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_COUNT1" nullable="true" originalDbColumnName="COND_COUNT" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -847,7 +837,7 @@
       <column comment="" key="false" length="1" name="COND_P_UNT1" nullable="true" originalDbColumnName="COND_P_UNT" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="VARCOND1" nullable="true" originalDbColumnName="VARCOND" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_ITEMS_IN_1" name="row_ORDER_ITEMS_IN_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_ITEMS_IN_1" name="row_ORDER_ITEMS_IN_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER2" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="HG_LV_ITEM" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="PO_ITM_NO" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1058,7 +1048,7 @@
       <column comment="" key="false" length="3" name="TP_SUB_ACCT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="TP_BETC" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_ITEMS_INX_1" name="row_ORDER_ITEMS_INX_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_ITEMS_INX_1" name="row_ORDER_ITEMS_INX_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER3" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="UPDATEFLAG1" nullable="true" originalDbColumnName="UPDATEFLAG" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="HG_LV_ITEM1" nullable="true" originalDbColumnName="HG_LV_ITEM" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1262,7 +1252,7 @@
       <column comment="" key="false" length="1" name="TP_SUB_ACCT1" nullable="true" originalDbColumnName="TP_SUB_ACCT" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="TP_BETC1" nullable="true" originalDbColumnName="TP_BETC" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_KEYS_1" name="row_ORDER_KEYS_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_KEYS_1" name="row_ORDER_KEYS_1" type="OUTPUT">
       <column comment="" key="false" length="10" name="REFOBJTYP" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="REFOBJECT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="70" name="REFOBJKEY3" nullable="true" originalDbColumnName="REFOBJKEY" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1281,7 +1271,7 @@
       <column comment="" key="false" length="0" name="ABRLI" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="ABART" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_PARTNERS_1" name="row_ORDER_PARTNERS_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_PARTNERS_1" name="row_ORDER_PARTNERS_1" type="OUTPUT">
       <column comment="" key="false" length="2" name="PARTN_ROLE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="PARTN_NUMB" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="ITM_NUMBER5" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -1320,7 +1310,7 @@
       <column comment="" key="false" length="70" name="REFOBJKEY4" nullable="true" originalDbColumnName="REFOBJKEY" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="REFLOGSYS4" nullable="true" originalDbColumnName="REFLOGSYS" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_SCHEDULES_IN_1" name="row_ORDER_SCHEDULES_IN_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_SCHEDULES_IN_1" name="row_ORDER_SCHEDULES_IN_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER6" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="SCHED_LINE" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="REQ_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="date" type="id_Date" usefulColumn="true"/>
@@ -1345,7 +1335,7 @@
       <column comment="" key="false" length="1" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="PLAN_SCHED_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_SCHEDULES_INX_1" name="row_ORDER_SCHEDULES_INX_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_SCHEDULES_INX_1" name="row_ORDER_SCHEDULES_INX_1" type="OUTPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER7" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="SCHED_LINE1" nullable="true" originalDbColumnName="SCHED_LINE" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="UPDATEFLAG2" nullable="true" originalDbColumnName="UPDATEFLAG" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1380,7 +1370,7 @@
       <column comment="" key="false" length="132" name="TEXT_LINE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="FUNCTION" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_PARTNERADDRESSES_1" name="row_PARTNERADDRESSES_1" type="OUTPUT">
+    <metadata comment="" connector="FLOW" label="row_PARTNERADDRESSES_1" name="row_PARTNERADDRESSES_1" type="OUTPUT">
       <column comment="" key="false" length="10" name="ADDR_NO" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="FORMOFADDR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="NAME1" nullable="true" originalDbColumnName="NAME" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1473,23 +1463,23 @@
       <column comment="" key="false" length="30" name="FIELD" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="SYSTEM" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_BEHAVE_WHEN_ERROR_1" name="row_BEHAVE_WHEN_ERROR_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_BEHAVE_WHEN_ERROR_1" name="row_BEHAVE_WHEN_ERROR_1" type="INPUT">
       <column comment="" key="false" length="1" name="BEHAVE_WHEN_ERROR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_BINARY_RELATIONSHIPTYPE_1" name="row_BINARY_RELATIONSHIPTYPE_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_BINARY_RELATIONSHIPTYPE_1" name="row_BINARY_RELATIONSHIPTYPE_1" type="INPUT">
       <column comment="" key="false" length="4" name="BINARY_RELATIONSHIPTYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_CONVERT_1" name="row_CONVERT_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_CONVERT_1" name="row_CONVERT_1" type="INPUT">
       <column comment="" key="false" length="1" name="CONVERT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_INT_NUMBER_ASSIGNMENT_1" name="row_INT_NUMBER_ASSIGNMENT_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_INT_NUMBER_ASSIGNMENT_1" name="row_INT_NUMBER_ASSIGNMENT_1" type="INPUT">
       <column comment="" key="false" length="1" name="INT_NUMBER_ASSIGNMENT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_LOGIC_SWITCH_1" name="row_LOGIC_SWITCH_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_LOGIC_SWITCH_1" name="row_LOGIC_SWITCH_1" type="INPUT">
       <column comment="" key="false" length="1" name="PRICING" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="ATP_WRKMOD" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="SCHEDULING" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1498,7 +1488,7 @@
       <column comment="" key="false" length="1" name="ADDR_CHECK" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_HEADER_IN_1" name="row_ORDER_HEADER_IN_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_HEADER_IN_1" name="row_ORDER_HEADER_IN_1" type="INPUT">
       <column comment="" key="false" length="10" name="REFOBJTYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="70" name="REFOBJKEY" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="REFDOCTYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1626,7 +1616,7 @@
       <column comment="" key="false" length="35" name="SEPA_MANDATE_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_HEADER_INX_1" name="row_ORDER_HEADER_INX_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_HEADER_INX_1" name="row_ORDER_HEADER_INX_1" type="INPUT">
       <column comment="" defaultValue="&quot;I&quot;" key="false" length="1" name="UPDATEFLAG" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="&quot;X&quot;" key="false" length="1" name="DOC_TYPE1" nullable="true" originalDbColumnName="DOC_TYPE" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="COLLECT_NO1" nullable="true" originalDbColumnName="COLLECT_NO" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1750,19 +1740,19 @@
       <column comment="" key="false" length="1" name="SEPA_MANDATE_ID1" nullable="true" originalDbColumnName="SEPA_MANDATE_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_SALESDOCUMENTIN_1" name="row_SALESDOCUMENTIN_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_SALESDOCUMENTIN_1" name="row_SALESDOCUMENTIN_1" type="INPUT">
       <column comment="" key="false" length="10" name="SALESDOCUMENTIN" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_SENDER_1" name="row_SENDER_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_SENDER_1" name="row_SENDER_1" type="INPUT">
       <column comment="" key="false" length="10" name="LOG_SYSTEM" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_TESTRUN_1" name="row_TESTRUN_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_TESTRUN_1" name="row_TESTRUN_1" type="INPUT">
       <column comment="" key="false" length="1" name="TESTRUN" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_EXTENSIONEX_2" name="row_EXTENSIONEX_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_EXTENSIONEX_2" name="row_EXTENSIONEX_2" type="INPUT">
       <column comment="" key="false" length="30" name="STRUCTURE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART1" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART2" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1770,7 +1760,7 @@
       <column comment="" key="false" length="240" name="VALUEPART4" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_EXTENSIONIN_2" name="row_EXTENSIONIN_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_EXTENSIONIN_2" name="row_EXTENSIONIN_2" type="INPUT">
       <column comment="" key="false" length="30" name="STRUCTURE1" nullable="true" originalDbColumnName="STRUCTURE" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART11" nullable="true" originalDbColumnName="VALUEPART1" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="240" name="VALUEPART21" nullable="true" originalDbColumnName="VALUEPART2" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1778,7 +1768,7 @@
       <column comment="" key="false" length="240" name="VALUEPART41" nullable="true" originalDbColumnName="VALUEPART4" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CCARD_2" name="row_ORDER_CCARD_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CCARD_2" name="row_ORDER_CCARD_2" type="INPUT">
       <column comment="" key="false" length="4" name="CC_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="25" name="CC_NUMBER" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="CC_VALID_T" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="date" type="id_Date" usefulColumn="true"/>
@@ -1814,12 +1804,12 @@
       <column comment="" key="false" length="1" name="CC_IN_USE_ST" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_BLOB_2" name="row_ORDER_CFGS_BLOB_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_BLOB_2" name="row_ORDER_CFGS_BLOB_2" type="INPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="250" name="CONTEXT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_INST_2" name="row_ORDER_CFGS_INST_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_INST_2" name="row_ORDER_CFGS_INST_2" type="INPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID1" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="OBJ_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1836,7 +1826,7 @@
       <column comment="" key="false" length="1" name="PERSIST_ID_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_PART_OF_2" name="row_ORDER_CFGS_PART_OF_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_PART_OF_2" name="row_ORDER_CFGS_PART_OF_2" type="INPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID2" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="PARENT_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID1" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1849,7 +1839,7 @@
       <column comment="" key="false" length="32" name="PART_OF_GUID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_REF_2" name="row_ORDER_CFGS_REF_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_REF_2" name="row_ORDER_CFGS_REF_2" type="INPUT">
       <column comment="" key="false" length="6" name="POSEX" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="CONFIG_ID3" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="ROOT_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1865,13 +1855,13 @@
       <column comment="" key="false" length="1" name="CBASE_ID_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_REFINST_2" name="row_ORDER_CFGS_REFINST_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_REFINST_2" name="row_ORDER_CFGS_REFINST_2" type="INPUT">
       <column comment="" key="false" length="6" name="POSEX1" nullable="true" originalDbColumnName="POSEX" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="CONFIG_ID4" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID2" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_VALUE_2" name="row_ORDER_CFGS_VALUE_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_VALUE_2" name="row_ORDER_CFGS_VALUE_2" type="INPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID5" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID3" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="CHARC" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -1883,14 +1873,14 @@
       <column comment="" key="false" length="1" name="VALCODE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CFGS_VK_2" name="row_ORDER_CFGS_VK_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CFGS_VK_2" name="row_ORDER_CFGS_VK_2" type="INPUT">
       <column comment="" key="false" length="6" name="CONFIG_ID6" nullable="true" originalDbColumnName="CONFIG_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="INST_ID4" nullable="true" originalDbColumnName="INST_ID" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="26" name="VKEY" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="FACTOR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CONDITIONS_IN_2" name="row_ORDER_CONDITIONS_IN_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CONDITIONS_IN_2" name="row_ORDER_CONDITIONS_IN_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_ST_NO" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_COUNT" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -1949,7 +1939,7 @@
       <column comment="" key="false" length="0" name="CONDCOINHD" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_CONDITIONS_INX_2" name="row_ORDER_CONDITIONS_INX_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_CONDITIONS_INX_2" name="row_ORDER_CONDITIONS_INX_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER1" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_ST_NO1" nullable="true" originalDbColumnName="COND_ST_NO" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="COND_COUNT1" nullable="true" originalDbColumnName="COND_COUNT" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -1962,7 +1952,7 @@
       <column comment="" key="false" length="26" name="VARCOND1" nullable="true" originalDbColumnName="VARCOND" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_ITEMS_IN_2" name="row_ORDER_ITEMS_IN_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_ITEMS_IN_2" name="row_ORDER_ITEMS_IN_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER2" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="HG_LV_ITEM" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="PO_ITM_NO" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2174,7 +2164,7 @@
       <column comment="" key="false" length="10" name="TP_BETC" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_ITEMS_INX_2" name="row_ORDER_ITEMS_INX_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_ITEMS_INX_2" name="row_ORDER_ITEMS_INX_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER3" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="UPDATEFLAG2" nullable="true" originalDbColumnName="UPDATEFLAG" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="HG_LV_ITEM1" nullable="true" originalDbColumnName="HG_LV_ITEM" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2379,7 +2369,7 @@
       <column comment="" key="false" length="1" name="TP_BETC1" nullable="true" originalDbColumnName="TP_BETC" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_KEYS_2" name="row_ORDER_KEYS_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_KEYS_2" name="row_ORDER_KEYS_2" type="INPUT">
       <column comment="" key="false" length="10" name="REFOBJTYP" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="REFOBJECT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="70" name="REFOBJKEY4" nullable="true" originalDbColumnName="REFOBJKEY" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2399,7 +2389,7 @@
       <column comment="" key="false" length="1" name="ABART" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_PARTNERS_2" name="row_ORDER_PARTNERS_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_PARTNERS_2" name="row_ORDER_PARTNERS_2" type="INPUT">
       <column comment="" key="false" length="2" name="PARTN_ROLE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="PARTN_NUMB" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="ITM_NUMBER5" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -2439,7 +2429,7 @@
       <column comment="" key="false" length="10" name="REFLOGSYS4" nullable="true" originalDbColumnName="REFLOGSYS" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_SCHEDULES_IN_2" name="row_ORDER_SCHEDULES_IN_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_SCHEDULES_IN_2" name="row_ORDER_SCHEDULES_IN_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER6" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="SCHED_LINE" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="REQ_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="date" type="id_Date" usefulColumn="true"/>
@@ -2465,7 +2455,7 @@
       <column comment="" key="false" length="1" name="PLAN_SCHED_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_SCHEDULES_INX_2" name="row_ORDER_SCHEDULES_INX_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_SCHEDULES_INX_2" name="row_ORDER_SCHEDULES_INX_2" type="INPUT">
       <column comment="" key="false" length="0" name="ITM_NUMBER7" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="SCHED_LINE1" nullable="true" originalDbColumnName="SCHED_LINE" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="UPDATEFLAG3" nullable="true" originalDbColumnName="UPDATEFLAG" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2491,7 +2481,7 @@
       <column comment="" key="false" length="1" name="PLAN_SCHED_TYPE1" nullable="true" originalDbColumnName="PLAN_SCHED_TYPE" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_ORDER_TEXT_2" name="row_ORDER_TEXT_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_ORDER_TEXT_2" name="row_ORDER_TEXT_2" type="INPUT">
       <column comment="" key="false" length="10" name="DOC_NUMBER1" nullable="true" originalDbColumnName="DOC_NUMBER" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="ITM_NUMBER8" nullable="true" originalDbColumnName="ITM_NUMBER" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="TEXT_ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2502,7 +2492,7 @@
       <column comment="" key="false" length="3" name="FUNCTION" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_PARTNERADDRESSES_2" name="row_PARTNERADDRESSES_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_PARTNERADDRESSES_2" name="row_PARTNERADDRESSES_2" type="INPUT">
       <column comment="" key="false" length="10" name="ADDR_NO" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="FORMOFADDR" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="NAME3" nullable="true" originalDbColumnName="NAME" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
@@ -2580,7 +2570,7 @@
       <column comment="" key="false" length="40" name="TOWNSHIP" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
-    <metadata comment="" label="row_RETURN_2" name="row_RETURN_2" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_RETURN_2" name="row_RETURN_2" type="INPUT">
       <column comment="" key="false" length="1" name="TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ID" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="NUMBER" nullable="true" pattern="" precision="0" sourceType="long" type="id_String" usefulColumn="true"/>
@@ -5113,7 +5103,7 @@
       <column comment="" defaultValue="" key="false" length="1" name="PLAN_SCHED_TYPE" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row4.ITM_NUMBER6" name="ITM_NUMBER6" nullable="true" type="id_String"/>
@@ -5169,16 +5159,6 @@
   </node>
   <node componentName="tSAPBapi" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPBapi_2"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPBapi"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.101 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
-    <elementParameter field="CHECK" name="START" show="false" value="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPBapi"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kufyUJrVEe6Hy5DlUSTCEg"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -5233,7 +5213,7 @@
       <column comment="" key="false" length="30" name="FIELD" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="SYSTEM" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata comment="" label="row_WAIT_1" name="row_WAIT_1" type="INPUT">
+    <metadata comment="" connector="FLOW" label="row_WAIT_1" name="row_WAIT_1" type="INPUT">
       <column comment="" defaultValue="&quot;X&quot;" key="false" length="1" name="WAIT" nullable="true" pattern="" precision="0" sourceType="string" type="id_String" usefulColumn="true"/>
       <additionalProperties key="isinput" value="true"/>
     </metadata>
@@ -5303,16 +5283,6 @@
   </node>
   <node componentName="tSAPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSAPConnection_1"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tSAPConnection"/>
-    <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
-    <elementParameter field="TEXT" name="FAMILY" show="false" value="Business/SAP"/>
-    <elementParameter field="CHECK" name="START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="true"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="true"/>
-    <elementParameter field="TEXT" name="HELP" show="false" value="org.talend.help.tSAPConnection"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" show="false" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java"/>
     <elementParameter field="LABEL" name="NOTE3" show="false" value="The selected SAP JCO version allows you to share this SAP connection only with tSAPInput and tSAPOutput"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kufyUJrVEe6Hy5DlUSTCEg"/>
@@ -5394,13 +5364,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e9be010-ce9d-45ee-86b2-6b5b330d7a0f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FA1StBApjYr6q4ET39u9P249KLNtFg3UbDSQVOoD7FTZtV48vt4akJy9MIc4OWFtYGheiTiy8foi&#13;
-MZMzCAXm/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2dba5e8c-95bf-4db9-81f5-9a9d008c22e7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>V0PMvkagegFExTiVIUkjcMyqiRh8H9zCPVMXQw7kZfYI1XhbMG1pKnLfW2I81oYgsXthA29p5ymO&#13;
-M0wf50pwfA==</DigestValue></Reference></SignedInfo><SignatureValue>R4VwVC2hHexqmP+isi5w4MKe0LQhRpUtTFvOt2+6HtmN+er0I1+PJwSRfJGU/+0L0WMo9/aZ2bte&#13;
-Wa+h3DhOZ77wween4xxIRAUjaaU+amavt7oaYdz2O/Dp8WAXlUrndSZH+DqkLd0MMGV/HZrhC6Fq&#13;
-qhCqhbSZQVqowqwrJ/lJSjR4oboS/zTtaTiiJYFZiSDy8E4oEQKF8EPCNOeBT9VFN9M6qjCf2lFk&#13;
-VQlwYQeaai8IBw/5ziIxr8z8fkkwz1HHZuTo6CWASjhZ9xFDqGG6ZLRrvRsxgjdvSbdp3jEKIUoo&#13;
-U5/XnFyv1rw7gzpySLdoVeOQgNmEBXMtbOwrjQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1b80c997-ec60-496f-be38-fef6eadaac05"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZjT1CTg6Oi+pLVvD5PdqHxgG7joFeqP4lHAhVfiwakDqORxchTDlAeGeg9rUm3R5g7hs1yNniuMf&#13;
+338VTzMj8g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ef53b45b-b99d-4344-83dd-3bf803894918"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GmiAVAA+AJUBYJKhN0dNlHwbGCcW6U8QapisTGeazj8LP77ZhnDgrS4T0nrEIRR7tTjEk5m4f56F&#13;
+pk3znjOwMg==</DigestValue></Reference></SignedInfo><SignatureValue>Fum5MxthX7/LLKq1vJ+W/ti2CUZY4fcwHz2BsuQIEMj5UGtR4W9JEv99tK6XPwLmHjJvTFuYAMXu&#13;
+1lBVViCkrUhXClUOhnkcZ8eQfHhcKZKgMxOEe9dk7JmcRBOQTmPW8UBM5Dvp0bmwXYqyTsaqPLh4&#13;
+AE/bvFwqYYmzRH7iv7DC9Bc3b67ToUGdgTinosuoadPhER21Tcg3YyXo8DSQFeuHzKkrTmua9efb&#13;
+8Rbx/dxbBQ3rsP0O/ficbkfDqy7/4lXdJ7t5SmgulplG9YsNnQZ/AOTchvFdyGnLxBpDIoIMsBfo&#13;
+AfR+d8l9dahSxZ/bvkv2fNFp8j0emkt1+H2bXw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -5422,4 +5392,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2dba5e8c-95bf-4db9-81f5-9a9d008c22e7" Target="#_2e9be010-ce9d-45ee-86b2-6b5b330d7a0f"><Timestamp>2024-04-20 01:26:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ef53b45b-b99d-4344-83dd-3bf803894918" Target="#_1b80c997-ec60-496f-be38-fef6eadaac05"><Timestamp>2024-04-21 04:23:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
