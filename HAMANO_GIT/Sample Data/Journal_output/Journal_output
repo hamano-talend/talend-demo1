@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sfin="http://sap.com/xi/SAPSCORE/SFIN">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sfin:JournalEntryBulkCreateRequest>
+         <MessageHeader>
+            <CreationDateTime>2024-05-08T09:00:00Z</CreationDateTime>
+            <ID>MSG_2024-05_08_01</ID>
+         </MessageHeader>
+         <JournalEntryCreateRequest>
+            <MessageHeader>
+               <CreationDateTime>2024-05-08T09:00:00Z</CreationDateTime>
+               <ID>SUBMSG_2024-05-08_01</ID>   
+            </MessageHeader>
+            <JournalEntry>
+               <OriginalReferenceDocumentType>BKPFF</OriginalReferenceDocumentType>
+               <OriginalReferenceDocument>00001</OriginalReferenceDocument>
+               <OriginalReferenceDocumentLogicalSystem>TESTSYS</OriginalReferenceDocumentLogicalSystem>
+               <BusinessTransactionType>RFBU</BusinessTransactionType>
+               <AccountingDocumentType>KR</AccountingDocumentType>
+               <DocumentReferenceID>Test CFIN</DocumentReferenceID>
+               <DocumentHeaderText>Test Supplier Invoice</DocumentHeaderText>
+               <CreatedByUser>CFIN_USER</CreatedByUser>
+               <CompanyCode>1710</CompanyCode>
+               <DocumentDate>2024-05-08</DocumentDate>  
+               <PostingDate>2024-05-08</PostingDate>
+               <ExchangeRate>1.12</ExchangeRate>  
+               <Reference1InDocumentHeader>TEST1</Reference1InDocumentHeader>
+               <Reference2InDocumentHeader>TEST2</Reference2InDocumentHeader>   
+               <Item>
+                  <ReferenceDocumentItem>1</ReferenceDocumentItem>
+                  <GLAccount>0061022100</GLAccount>
+                  <AmountInTransactionCurrency currencyCode="USD">10</AmountInTransactionCurrency>
+                  <DebitCreditCode>S</DebitCreditCode>
+                  <DocumentItemText>GL account item</DocumentItemText>
+                  <AssignmentReference></AssignmentReference>
+                  <HouseBankAccount></HouseBankAccount>
+                  <Tax>
+                     <TaxCode></TaxCode>
+                  </Tax>
+                  <AccountAssignment>
+                     <AccountAssignmentType></AccountAssignmentType>
+                     <ProfitCenter></ProfitCenter>
+                     <CostCenter>0017101321</CostCenter>
+                  </AccountAssignment>
+               </Item>
+                <Item>
+                  <ReferenceDocumentItem>2</ReferenceDocumentItem>
+                  <GLAccount>0011002010</GLAccount>
+                  <AmountInTransactionCurrency currencyCode="USD">-10</AmountInTransactionCurrency>
+                  <DebitCreditCode>H</DebitCreditCode>
+                  <DocumentItemText>GL account item</DocumentItemText>
+                  <AssignmentReference></AssignmentReference>
+                  <HouseBankAccount></HouseBankAccount>
+                  <Tax>
+                     <TaxCode></TaxCode>
+                  </Tax>
+                  <AccountAssignment>
+                     <AccountAssignmentType>EO</AccountAssignmentType>
+                     <ProfitCenter>T-PCB98</ProfitCenter>
+                     <CostCenter></CostCenter>
+                  </AccountAssignment>
+               </Item>      
+            </JournalEntry>
+         </JournalEntryCreateRequest>
+
+                  <JournalEntryCreateRequest>
+            <MessageHeader>
+               <CreationDateTime>2024-05-08T09:00:00Z</CreationDateTime>
+               <ID>SUBMSG_2024-05-08_01</ID>   
+            </MessageHeader>
+            <JournalEntry>
+               <OriginalReferenceDocumentType>BKPFF</OriginalReferenceDocumentType>
+               <OriginalReferenceDocument>00001</OriginalReferenceDocument>
+               <OriginalReferenceDocumentLogicalSystem>TESTSYS</OriginalReferenceDocumentLogicalSystem>
+               <BusinessTransactionType>RFBU</BusinessTransactionType>
+               <AccountingDocumentType>KR</AccountingDocumentType>
+               <DocumentReferenceID>Test CFIN</DocumentReferenceID>
+               <DocumentHeaderText>Test Supplier Invoice</DocumentHeaderText>
+               <CreatedByUser>CFIN_USER</CreatedByUser>
+               <CompanyCode>1710</CompanyCode>
+               <DocumentDate>2024-05-08</DocumentDate>  
+               <PostingDate>2024-05-08</PostingDate>
+               <ExchangeRate>1.12</ExchangeRate>  
+               <Reference1InDocumentHeader>TEST1</Reference1InDocumentHeader>
+               <Reference2InDocumentHeader>TEST2</Reference2InDocumentHeader>   
+               <Item>
+                  <ReferenceDocumentItem>1</ReferenceDocumentItem>
+                  <GLAccount>0061022100</GLAccount>
+                  <AmountInTransactionCurrency currencyCode="USD">10</AmountInTransactionCurrency>
+                  <DebitCreditCode>S</DebitCreditCode>
+                  <DocumentItemText>GL account item</DocumentItemText>
+                  <AssignmentReference></AssignmentReference>
+                  <HouseBankAccount></HouseBankAccount>
+                  <Tax>
+                     <TaxCode></TaxCode>
+                  </Tax>
+                  <AccountAssignment>
+                     <AccountAssignmentType></AccountAssignmentType>
+                     <ProfitCenter></ProfitCenter>
+                     <CostCenter>0017101321</CostCenter>
+                  </AccountAssignment>
+               </Item>
+                <Item>
+                  <ReferenceDocumentItem>2</ReferenceDocumentItem>
+                  <GLAccount>0011002010</GLAccount>
+                  <AmountInTransactionCurrency currencyCode="USD">-10</AmountInTransactionCurrency>
+                  <DebitCreditCode>H</DebitCreditCode>
+                  <DocumentItemText>GL account item</DocumentItemText>
+                  <AssignmentReference></AssignmentReference>
+                  <HouseBankAccount></HouseBankAccount>
+                  <Tax>
+                     <TaxCode></TaxCode>
+                  </Tax>
+                  <AccountAssignment>
+                     <AccountAssignmentType>EO</AccountAssignmentType>
+                     <ProfitCenter>T-PCB98</ProfitCenter>
+                     <CostCenter></CostCenter>
+                  </AccountAssignment>
+               </Item>      
+            </JournalEntry>
+         </JournalEntryCreateRequest>  
+      </sfin:JournalEntryBulkCreateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sfin="http://sap.com/xi/SAPSCORE/SFIN">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sfin:JournalEntryBulkCreateRequest>
+         <MessageHeader>
+            <CreationDateTime>2017-02-18T09:00:00Z</CreationDateTime>
+            <ID>MSG_2017-02_18_01</ID>
+         </MessageHeader>
+         <JournalEntryCreateRequest>
+            <MessageHeader>
+               <CreationDateTime>2017-02-18T09:00:00Z</CreationDateTime>
+               <ID>SUBMSG_2017-02-18_01</ID>   
+            </MessageHeader>
+            <JournalEntry>
+               <OriginalReferenceDocumentType>BKPFF</OriginalReferenceDocumentType>
+               <OriginalReferenceDocument>00001</OriginalReferenceDocument>
+               <OriginalReferenceDocumentLogicalSystem>TESTSYS</OriginalReferenceDocumentLogicalSystem>
+               <BusinessTransactionType>RFBU</BusinessTransactionType>
+               <AccountingDocumentType>KR</AccountingDocumentType>
+               <DocumentReferenceID>Test CFIN</DocumentReferenceID>
+               <DocumentHeaderText>Test Supplier Invoice</DocumentHeaderText>
+               <CreatedByUser>CFIN_USER</CreatedByUser>
+               <CompanyCode>F001</CompanyCode>
+               <DocumentDate>2017-11-30</DocumentDate>
+               <ExchangeRate>1.12</ExchangeRate>    
+               <PostingDate>2017-11-30</PostingDate>
+               <Reference1InDocumentHeader>TEST1</Reference1InDocumentHeader>
+               <Reference2InDocumentHeader>TEST2</Reference2InDocumentHeader>   
+               <Item>
+                  <GLAccount>0000400000</GLAccount>
+                  <AmountInTransactionCurrency currencyCode="EUR">10</AmountInTransactionCurrency>
+                  <AmountInGroupCurrency currencyCode="EUR">10</AmountInGroupCurrency>
+                  <DebitCreditCode>S</DebitCreditCode>
+                  <DocumentItemText>GL account item</DocumentItemText>
+                  <Tax>            
+                     <TaxCode>V0</TaxCode>
+                     <TaxExpenseAmountInTransacCrcy currencyCode="EUR">0</TaxExpenseAmountInTransacCrcy>
+                  </Tax>
+                  <AccountAssignment>
+                     <CostCenter>0000001000</CostCenter>
+                  </AccountAssignment>
+               </Item>
+               <CreditorItem>
+                  <ReferenceDocumentItem>1</ReferenceDocumentItem>
+                  <Creditor>0000100056</Creditor>
+                  <AmountInTransactionCurrency currencyCode="EUR">-10</AmountInTransactionCurrency>
+                  <AmountInGroupCurrency currencyCode="EUR">-10</AmountInGroupCurrency>
+                  <DebitCreditCode>H</DebitCreditCode>
+                  <PaymentDetails>   
+                    <PayeeBankAccount>
+                      <Country>DE</Country>
+                       <IBAN>DE51045673410000001234</IBAN>
+                     </PayeeBankAccount>
+                  </PaymentDetails>
+               </CreditorItem>
+               <ProductTaxItem>
+                  <TaxCode>V0</TaxCode>
+                  <TaxItemClassification>VST</TaxItemClassification>
+                  <TaxItemGroup>000001</TaxItemGroup>
+                  <AmountInTransactionCurrency currencyCode="EUR">0</AmountInTransactionCurrency>
+                  <DebitCreditCode>S</DebitCreditCode>
+                  <TaxBaseAmountInTransCrcy currencyCode="EUR">10</TaxBaseAmountInTransCrcy>
+                  <TaxBaseAmountInGroupCrcy currencyCode="EUR">10</TaxBaseAmountInGroupCrcy>
+               </ProductTaxItem>                
+            </JournalEntry>
+         </JournalEntryCreateRequest>
+      </sfin:JournalEntryBulkCreateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
