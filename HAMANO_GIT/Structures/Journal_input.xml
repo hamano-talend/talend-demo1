@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x18f573bf240' V1='4' name='Journal_input' incarnation='58'>
+<root t='150' id='1' V150='13' creationTimestamp='0x18f573bf240' V1='4' name='Journal_input' incarnation='63'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='csv'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='row' checksumValid='true' checksum='O2rwWiF/xQZ6MWXxsWsBV0/tRyM='>
@@ -65,10 +65,6 @@
         <delimTerminator>,</delimTerminator>
       </child>
       <child t='167' id='19' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='Reference2InDocumentHeader'>
-        <structNode t='150' idref='1'/>
-        <delimTerminator>,</delimTerminator>
-      </child>
-      <child t='167' id='20' V167='21' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='Builtin:Structures/Representation Handlers/OptionalQuotes.xml' visible='true' inheritsFrom='' V281='13' V1='4' name='Unnamed1'>
         <structNode t='150' idref='1'/>
         <delimTerminator>,</delimTerminator>
       </child>
@@ -210,5 +206,8 @@
     </child>
   </child>
   <child t='165' id='56' V1='4' name='Document Bindings'>
+    <child t='166' id='57' V166='5' docType='1' docReposPath='/HAMANO_GIT/Sample Data/Journal_input/Journal_input' V1='4' name='/csv'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>

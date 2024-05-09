@@ -1,5 +1,16 @@
 [ {
   "baseItem" : {
+    "id" : "_-peqoA21Ee-IwvX-gtlfdQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_jH3VsA0mEe-LF7OnPUm3ig",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_0f5SACa3Ee6xIccnhqesEg",
     "version" : "0.1",
     "type" : "job"
@@ -1173,6 +1184,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Yqh_4A1BEe-lhOnyyGsXug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_jH3VsA0mEe-LF7OnPUm3ig",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_ZMvncP4fEe6h1_kc0GdnAg",
     "version" : "0.1",
     "type" : "job"
@@ -1390,6 +1412,17 @@
     "id" : "_tVfyMA3cEe6WF_dEW6RlTw - metadata",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_eZjR0A05Ee-lhOnyyGsXug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_jH3VsA0mEe-LF7OnPUm3ig",
+    "version" : "Latest",
+    "type" : "mapper"
   } ]
 }, {
   "baseItem" : {
@@ -1870,6 +1903,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_te7PIA0xEe-lhOnyyGsXug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ghG7kA02Ee-lhOnyyGsXug",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "_jH3VsA0mEe-LF7OnPUm3ig",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "_-PsoMA0yEe-lhOnyyGsXug",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-PsoMA0yEe-lhOnyyGsXug - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_u_Z5AKL6Ee6zjYqBODQowQ",
     "version" : "0.1",
     "type" : "job"
@@ -1890,6 +1946,17 @@
     "id" : "_NaJSQKL9Ee6zjYqBODQowQ",
     "version" : "Latest",
     "type" : "validationRuleRelation"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ubYeEA02Ee-lhOnyyGsXug",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5FQm0A02Ee-lhOnyyGsXug",
+    "version" : "Latest",
+    "type" : "mapper"
   } ]
 }, {
   "baseItem" : {
