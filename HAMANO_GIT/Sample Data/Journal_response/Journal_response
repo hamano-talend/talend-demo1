@@ -1,0 +1,52 @@
+<n0:JournalEntryBulkCreateConfirmation xmlns:n0="http://sap.com/xi/SAPSCORE/SFIN" xmlns:prx="urn:sap.com:proxy:S4H:/1SAI/TAS3D871C7855B59197A671:758">
+  <MessageHeader>
+    <UUID>790004a4-a0c5-1edf-84a0-a720094284d9</UUID>
+    <ReferenceID>MSG_2024-05_08_01</ReferenceID>
+    <CreationDateTime>2024-05-13T08:46:01.791537Z</CreationDateTime>
+    <SenderBusinessSystemID>S4H</SenderBusinessSystemID>
+  </MessageHeader>
+  <ConfirmationInterfaceOrignName />
+  <JournalEntryCreateConfirmation>
+    <MessageHeader>
+      <UUID>790004a4-a0c5-1edf-84a0-a7200942a4d9</UUID>
+      <ReferenceID>400616</ReferenceID>
+      <CreationDateTime>2024-05-13T08:46:01.79157Z</CreationDateTime>
+    </MessageHeader>
+    <JournalEntryCreateConfirmation>
+      <AccountingDocument>1900000020</AccountingDocument>
+      <CompanyCode>1710</CompanyCode>
+      <FiscalYear>2024</FiscalYear>
+    </JournalEntryCreateConfirmation>
+    <Log>
+      <MaximumLogItemSeverityCode>1</MaximumLogItemSeverityCode>
+      <Item>
+        <TypeID>605(RW)</TypeID>
+        <SeverityCode>1</SeverityCode>
+        <Note>Document posted successfully: BKPFF 190000002017102024 S4HCLNT100</Note>
+        <WebURI>http://vhcals4hci.dummy.nodomain:50000/sap/xi/docu_apperror</WebURI>
+      </Item>
+    </Log>
+  </JournalEntryCreateConfirmation>
+  <JournalEntryCreateConfirmation>
+    <MessageHeader>
+      <UUID>790004a4-a0c5-1edf-84a0-a7511e0c44da</UUID>
+      <ReferenceID>400617</ReferenceID>
+      <CreationDateTime>2024-05-13T08:46:03.529532Z</CreationDateTime>
+    </MessageHeader>
+    <JournalEntryCreateConfirmation>
+      <AccountingDocument>1900000021</AccountingDocument>
+      <CompanyCode>1710</CompanyCode>
+      <FiscalYear>2024</FiscalYear>
+    </JournalEntryCreateConfirmation>
+    <Log>
+      <MaximumLogItemSeverityCode>1</MaximumLogItemSeverityCode>
+      <Item>
+        <TypeID>605(RW)</TypeID>
+        <SeverityCode>1</SeverityCode>
+        <Note>Document posted successfully: BKPFF 190000002117102024 S4HCLNT100</Note>
+        <WebURI>http://vhcals4hci.dummy.nodomain:50000/sap/xi/docu_apperror</WebURI>
+      </Item>
+    </Log>
+  </JournalEntryCreateConfirmation>
+  <Log />
+</n0:JournalEntryBulkCreateConfirmation>

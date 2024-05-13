@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x18f5733176f' V1='4' name='Journal' incarnation='5'>
+<root t='150' id='1' V150='13' creationTimestamp='0x18f7018c5c7' V1='4' name='Journal_output3' incarnation='16'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Envelope'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Header'>
@@ -18,7 +18,7 @@
             <structNode t='150' idref='1'/>
           </child>
         </child>
-        <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='JournalEntryCreateRequest'>
+        <child t='167' id='9' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='JournalEntryCreateRequest'>
           <structNode t='150' idref='1'/>
           <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='MessageHeader'>
             <structNode t='150' idref='1'/>
@@ -29,7 +29,7 @@
               <structNode t='150' idref='1'/>
             </child>
           </child>
-          <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='JournalEntry' checksumValid='true' checksum='t8G3DvNwXwGT5C2mbn+aFtrOYEQ='>
+          <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='JournalEntry' checksumValid='true' checksum='+fOA5i82leZQHCfdS34RynkLi7E='>
             <structNode t='150' idref='1'/>
             <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='OriginalReferenceDocumentType'>
               <structNode t='150' idref='1'/>
@@ -73,7 +73,7 @@
             <child t='167' id='27' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Reference2InDocumentHeader'>
               <structNode t='150' idref='1'/>
             </child>
-            <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Item'>
+            <child t='167' id='28' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='Item'>
               <structNode t='150' idref='1'/>
               <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='GLAccount'>
                 <structNode t='150' idref='1'/>
@@ -119,7 +119,13 @@
               </child>
               <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='AccountAssignment'>
                 <structNode t='150' idref='1'/>
-                <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='CostCenter'>
+                <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='CostCenter'>
+                  <structNode t='150' idref='1'/>
+                </child>
+                <child t='167' id='79' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='ProfitCenter'>
+                  <structNode t='150' idref='1'/>
+                </child>
+                <child t='167' id='81' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='AccountAssignmentType'>
                   <structNode t='150' idref='1'/>
                 </child>
               </child>
@@ -213,8 +219,8 @@
       </child>
     </child>
   </rootElem>
-  <defaultRep t='172' id='73' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Wed May 08 16:55:22 JST 2024' importFile='file:/C:/Temp/Journal/Journal.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
-    <namespaceContainers t='220' ref='Namespace Containers/Journal.xml'/>
+  <defaultRep t='172' id='73' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Mon May 13 03:57:04 GMT 2024' importFile='file:/C:/Temp/Journal/Journal_output3.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/Journal_output3.xml'/>
   </defaultRep>
   <namespaceList t='161' id='74' V161='1' namespaceUri='___osdtDummy___' V1='4'>
   </namespaceList>
@@ -226,5 +232,8 @@
     <child t='172' idref='73'/>
   </child>
   <child t='165' id='78' V1='4' name='Document Bindings'>
+    <child t='166' id='80' V166='5' docType='1' docReposPath='/HAMANO_GIT/Sample Data/Journal_output3/Journal_output3' V1='4' name='/soapenv:Envelope'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>

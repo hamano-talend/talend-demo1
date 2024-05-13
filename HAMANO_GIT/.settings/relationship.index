@@ -291,6 +291,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_8xRZgBDvEe-9KelE-5kAVw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_6dvyUBDcEe-9KelE-5kAVw",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "_XSGjIBEMEe-9KelE-5kAVw",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_90jPAAB9Ee6loaKge7JqUQ",
     "version" : "0.1",
     "type" : "job"
