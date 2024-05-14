@@ -488,6 +488,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_D21rABEREe-9KelE-5kAVw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_b4Dg8BEUEe-9KelE-5kAVw",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_D2giIKOoEe6r6MtrY0A_sw",
     "version" : "0.1",
     "type" : "job"

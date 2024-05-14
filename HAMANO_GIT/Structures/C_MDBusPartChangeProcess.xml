@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='150' id='1' V150='13' creationTimestamp='0x18f717d48e4' V1='4' name='C_MDBusPartChangeProcess' incarnation='5'>
+  <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='feed'>
+    <structNode t='150' idref='1'/>
+    <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='4' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='4' V281='13' V1='4' name='base'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='5' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='id'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='title'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='8' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='9' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='updated'>
+      <structNode t='150' idref='1'/>
+    </child>
+    <child t='167' id='10' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='author'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='name'>
+        <structNode t='150' idref='1'/>
+      </child>
+    </child>
+    <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='link'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='13' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='14' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='href'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='rel'>
+          <structNode t='150' idref='1'/>
+        </child>
+        <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='title'>
+          <structNode t='150' idref='1'/>
+        </child>
+      </child>
+    </child>
+    <child t='167' id='17' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='entry'>
+      <structNode t='150' idref='1'/>
+      <child t='167' id='18' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='id'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='19' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='title'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='20' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='21' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='22' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='updated'>
+        <structNode t='150' idref='1'/>
+      </child>
+      <child t='167' id='23' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='category'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='24' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='25' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='scheme'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='26' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='term'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='27' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='link'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='28' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='29' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='href'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='30' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='rel'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='31' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='title'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='32' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+      <child t='167' id='33' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='content'>
+        <structNode t='150' idref='1'/>
+        <child t='167' id='34' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='35' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='type'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+        <child t='167' id='36' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='2' V281='13' V1='4' name='properties' checksumValid='true' checksum='A/SOfWVB2l7Zer2v8YDjuHmpx8s='>
+          <structNode t='150' idref='1'/>
+          <child t='167' id='37' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='ID'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='38' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MasterDataChangeProcess'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='39' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessDescription'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='40' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessTypeID'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='41' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessTypeID_Text'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='42' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessGoal'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='43' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessGoal_Text'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='44' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessStatusStateCode'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='45' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessStatusStateCode_Text'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='46' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessStatus'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='47' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='CreatedByUser'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='48' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='CreatedByUserName'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='49' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='CreationDate'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='50' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='CreationYearMonth'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='51' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessCreationTime'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='52' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessWorkflowTemplate'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='53' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessChangeDate'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='54' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessChangeTime'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='55' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessFinishDate'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='56' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+              <structNode t='150' idref='1'/>
+              <child t='167' id='57' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='2' V281='13' V1='4' name='null'>
+                <structNode t='150' idref='1'/>
+              </child>
+            </child>
+          </child>
+          <child t='167' id='58' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessFinishTime'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='59' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessChkPointIsActive'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='60' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessPredecessor'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='61' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessFinalDateTime'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='62' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+              <structNode t='150' idref='1'/>
+              <child t='167' id='63' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='2' V281='13' V1='4' name='null'>
+                <structNode t='150' idref='1'/>
+              </child>
+            </child>
+          </child>
+          <child t='167' id='64' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessNextStpAtDateTime'>
+            <structNode t='150' idref='1'/>
+            <child t='167' id='65' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='3' repHandlerStruct='' inheritsFrom='' V281='13' V1='4' name='Attributes'>
+              <structNode t='150' idref='1'/>
+              <child t='167' id='66' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' elemType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='2' V281='13' V1='4' name='null'>
+                <structNode t='150' idref='1'/>
+              </child>
+            </child>
+          </child>
+          <child t='167' id='67' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessDuplicateStrategy'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='68' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='22' decimalPositions='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcAvgProcgDays'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='69' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcAvgProcgDaysUnit'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='70' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcAvgProcgDaysUnit_Text'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='71' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChangeProcessCount'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='72' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessIsFinished'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='73' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessNmbrOfSrceRecords'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='74' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcModifdObjectsCount'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='75' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcValdtnErrorCount'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='76' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcessSrceObjectTypeCode'>
+            <structNode t='150' idref='1'/>
+          </child>
+          <child t='167' id='77' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='3' V281='13' V1='4' name='MDChgProcRAPBsdSwitchIsActive'>
+            <structNode t='150' idref='1'/>
+          </child>
+        </child>
+      </child>
+    </child>
+  </rootElem>
+  <defaultRep t='172' id='78' V172='6' autoFixNamespaceMismatch='true' V170='10' V692='1' unnamedElemsNamespace='1' V690='1' encoding='UTF-8' importDate='Mon May 13 10:26:28 GMT 2024' importFile='file:/C:/Temp/Journal/C_MDBusPartChangeProcess.xml' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='XML'>
+    <namespaceContainers t='220' ref='Namespace Containers/C_MDBusPartChangeProcess.xml'/>
+  </defaultRep>
+  <namespaceList t='161' id='79' V161='1' namespaceUri='___osdtDummy___' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='80' V161='1' namespaceUri='http://www.w3.org/2005/Atom' namespacePrefix='default' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='81' V161='1' namespaceUri='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' namespacePrefix='m' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='82' V161='1' namespaceUri='http://schemas.microsoft.com/ado/2007/08/dataservices' namespacePrefix='d' V1='4'>
+  </namespaceList>
+  <namespaceList t='161' id='83' V161='1' namespaceUri='http://www.w3.org/XML/1998/namespace' namespacePrefix='xml' V1='4'>
+  </namespaceList>
+  <child t='162' id='84' V1='4' name='Representations'>
+    <child t='172' idref='78'/>
+  </child>
+  <child t='165' id='85' V1='4' name='Document Bindings'>
+  </child>
+</root>

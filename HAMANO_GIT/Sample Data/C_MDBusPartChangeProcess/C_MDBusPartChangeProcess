@@ -1,0 +1,549 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/">
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess/</id>
+<title type="text">C_MDBusPartChangeProcess</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<author>
+<name/>
+</author>
+<link href="C_MDBusPartChangeProcess/" rel="self" title="C_MDBusPartChangeProcess"/>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000113')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000113')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000113')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000113</d:ID>
+<d:MasterDataChangeProcess>000000000113</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>demo1</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MET</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Enrich Business Partner Data</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>D</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Mass Enrichment</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>004</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Failed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>A</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2020-11-09T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202011</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT11H00M02S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2020-11-09T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT11H50M17S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate m:null="true"/>
+<d:MDChgProcessFinishTime>PT00H00M00S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>1281.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>false</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>1</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000112')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000112')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000112')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000112</d:ID>
+<d:MasterDataChangeProcess>000000000112</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Mass Enrichment</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MET</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Enrich Business Partner Data</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>D</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Mass Enrichment</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>001</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Stopped for Review</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>A</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2020-11-06T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202011</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT07H20M42S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2020-11-09T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT12H29M19S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate m:null="true"/>
+<d:MDChgProcessFinishTime>PT00H00M00S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>true</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>1284.1</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>false</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>1</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000114')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000114')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000114')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000114</d:ID>
+<d:MasterDataChangeProcess>000000000114</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Mass Enrichment Process 1</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MET</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Enrich Business Partner Data</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>D</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Mass Enrichment</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2020-11-10T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202011</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT06H32M15S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2020-11-10T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT06H53M01S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2020-11-10T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT06H53M01S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>0.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>11</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>10</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000118')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000118')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000118')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000118</d:ID>
+<d:MasterDataChangeProcess>000000000118</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>test</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MET</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Enrich Business Partner Data</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>D</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Mass Enrichment</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>004</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Failed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>A</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2020-11-11T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202011</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT10H26M15S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2020-11-11T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT11H00M18S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate m:null="true"/>
+<d:MDChgProcessFinishTime>PT00H00M00S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>1279.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>false</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>1</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000119')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000119')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000119')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000119</d:ID>
+<d:MasterDataChangeProcess>000000000119</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>testnew</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MET</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Enrich Business Partner Data</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>D</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Mass Enrichment</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>001</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Stopped for Review</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>A</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2020-11-11T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202011</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT10H52M15S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2020-11-11T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT11H07M20S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate m:null="true"/>
+<d:MDChgProcessFinishTime>PT00H00M00S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>true</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>1279.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>false</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>1</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000204')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000204')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000204')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000204</d:ID>
+<d:MasterDataChangeProcess>000000000204</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>derive customer</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MCA</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Mass Creation BP Automated</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>C</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Consolidation of Source Records</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2023-11-20T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202311</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT15H22M59S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2023-11-20T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT15H29M38S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2023-11-20T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT15H29M38S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>0.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>0</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000219')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000219')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000219')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000219</d:ID>
+<d:MasterDataChangeProcess>000000000219</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Demo Derive and Validate</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MCA</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Mass Creation BP Automated</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>C</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Consolidation of Source Records</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>SAP_WFRT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2023-11-22T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202311</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT15H44M06S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2023-11-23T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT16H34M49S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2023-11-23T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT16H34M49S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000218</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>1.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>0</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000223')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000223')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000223')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000223</d:ID>
+<d:MasterDataChangeProcess>000000000223</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Demo Derive and Validate</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MCA</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Mass Creation BP Automated</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>C</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Consolidation of Source Records</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>SAP_WFRT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2023-11-23T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202311</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT16H34M05S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2023-11-23T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT17H16M52S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2023-11-23T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT17H16M52S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000219</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>0.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>0</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000239')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000239')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000239')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000239</d:ID>
+<d:MasterDataChangeProcess>000000000239</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Demo CAL</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MCA</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Mass Creation BP Automated</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>C</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Consolidation of Source Records</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>MDG_EXPERT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2023-11-24T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202311</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT16H28M51S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2023-11-24T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT17H01M08S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2023-11-24T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT17H01M08S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000000</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>0.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>0</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>http://vhcals4hci.dummy.nodomain:50000/sap/opu/odata/sap/MDC_PROC_BP_ALP_SRV/C_MDBusPartChangeProcess('.1~000000000240')</id>
+<title type="text">C_MDBusPartChangeProcess('.1~000000000240')</title>
+<updated>2024-05-13T10:15:33Z</updated>
+<category term="MDC_PROC_BP_ALP_SRV.C_MDBusPartChangeProcessType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')" rel="self" title="C_MDBusPartChangeProcessType"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDBusPartChgProcessGoalVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessGoalVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessGoalVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDBusPartChgProcessTypeVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDBusPartChgProcessTypeVH" type="application/atom+xml;type=entry" title="to_MDBusPartChgProcessTypeVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDChangeProcGoalT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChangeProcGoalT" type="application/atom+xml;type=feed" title="to_MDChangeProcGoalT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDChgProcBusPartCreatorVH" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcBusPartCreatorVH" type="application/atom+xml;type=entry" title="to_MDChgProcBusPartCreatorVH"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDChgProcessStatusState" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusState" type="application/atom+xml;type=entry" title="to_MDChgProcessStatusState"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDChgProcessStatusStateT" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessStatusStateT" type="application/atom+xml;type=feed" title="to_MDChgProcessStatusStateT"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_MDChgProcessTypeText" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_MDChgProcessTypeText" type="application/atom+xml;type=feed" title="to_MDChgProcessTypeText"/>
+<link href="C_MDBusPartChangeProcess('.1~000000000240')/to_YearMonth" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/to_YearMonth" type="application/atom+xml;type=entry" title="to_YearMonth"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:ID>.1~000000000240</d:ID>
+<d:MasterDataChangeProcess>000000000240</d:MasterDataChangeProcess>
+<d:MDChgProcessDescription>Demo CAL</d:MDChgProcessDescription>
+<d:MDChgProcessTypeID>SAP_BP_MCA</d:MDChgProcessTypeID>
+<d:MDChgProcessTypeID_Text>SAP: Mass Creation BP Automated</d:MDChgProcessTypeID_Text>
+<d:MDChgProcessGoal>C</d:MDChgProcessGoal>
+<d:MDChgProcessGoal_Text>Consolidation of Source Records</d:MDChgProcessGoal_Text>
+<d:MDChgProcessStatusStateCode>005</d:MDChgProcessStatusStateCode>
+<d:MDChgProcessStatusStateCode_Text>Completed</d:MDChgProcessStatusStateCode_Text>
+<d:MDChgProcessStatus>F</d:MDChgProcessStatus>
+<d:CreatedByUser>SAP_WFRT</d:CreatedByUser>
+<d:CreatedByUserName/>
+<d:CreationDate>2023-11-24T00:00:00</d:CreationDate>
+<d:CreationYearMonth>202311</d:CreationYearMonth>
+<d:MDChgProcessCreationTime>PT17H00M42S</d:MDChgProcessCreationTime>
+<d:MDChgProcessWorkflowTemplate>WS54500001</d:MDChgProcessWorkflowTemplate>
+<d:MDChgProcessChangeDate>2023-11-24T00:00:00</d:MDChgProcessChangeDate>
+<d:MDChgProcessChangeTime>PT17H25M53S</d:MDChgProcessChangeTime>
+<d:MDChgProcessFinishDate>2023-11-24T00:00:00</d:MDChgProcessFinishDate>
+<d:MDChgProcessFinishTime>PT17H25M53S</d:MDChgProcessFinishTime>
+<d:MDChgProcessChkPointIsActive>false</d:MDChgProcessChkPointIsActive>
+<d:MDChgProcessPredecessor>000000000239</d:MDChgProcessPredecessor>
+<d:MDChgProcessFinalDateTime m:null="true"/>
+<d:MDChgProcessNextStpAtDateTime m:null="true"/>
+<d:MDChgProcessDuplicateStrategy/>
+<d:MDChgProcAvgProcgDays>0.0</d:MDChgProcAvgProcgDays>
+<d:MDChgProcAvgProcgDaysUnit>DAY</d:MDChgProcAvgProcgDaysUnit>
+<d:MDChgProcAvgProcgDaysUnit_Text>Days</d:MDChgProcAvgProcgDaysUnit_Text>
+<d:MDChangeProcessCount>1</d:MDChangeProcessCount>
+<d:MDChgProcessIsFinished>true</d:MDChgProcessIsFinished>
+<d:MDChgProcessNmbrOfSrceRecords>0</d:MDChgProcessNmbrOfSrceRecords>
+<d:MDChgProcModifdObjectsCount>0</d:MDChgProcModifdObjectsCount>
+<d:MDChgProcValdtnErrorCount>0</d:MDChgProcValdtnErrorCount>
+<d:MDChgProcessSrceObjectTypeCode>147</d:MDChgProcessSrceObjectTypeCode>
+<d:MDChgProcRAPBsdSwitchIsActive>true</d:MDChgProcRAPBsdSwitchIsActive>
+</m:properties>
+</content>
+</entry>
+</feed>
