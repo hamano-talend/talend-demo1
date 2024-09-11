@@ -1106,11 +1106,19 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_fl8RMPyKEe6OyLFipE4fiQ",
+    "id" : "_dtFJ0K20Ee6loamWkGT3TQ",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_fl8RMPyKEe6OyLFipE4fiQ - metadata",
+    "id" : "_heiTMCayEe6u9_6lt_4ZZA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dtFJ0K20Ee6loamWkGT3TQ - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_heiTMCayEe6u9_6lt_4ZZA - leads",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -1283,21 +1291,6 @@
     "id" : "_VYJPoLBbEe6Ixqy5QG2HPg - 64K",
     "version" : "Latest",
     "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_a2MmEK0hEe6wmrPcfdMNyQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_A6b8wK0jEe6wmrPcfdMNyQ",
-    "version" : "0.1",
-    "type" : "job"
-  }, {
-    "id" : "_MavzsK0iEe6wmrPcfdMNyQ",
-    "version" : "0.1",
-    "type" : "job"
   } ]
 }, {
   "baseItem" : {
@@ -1821,17 +1814,6 @@
     "id" : "_GymiUAEyEe6loaKge7JqUQ - metadata",
     "version" : "Latest",
     "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_o4SSkLEYEe6Ixqy5QG2HPg",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_DOdxkLEYEe6Ixqy5QG2HPg",
-    "version" : "Latest",
-    "type" : "mapper"
   } ]
 }, {
   "baseItem" : {
