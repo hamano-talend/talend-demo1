@@ -229,29 +229,26 @@
       </column>
     </metadata>
   </node>
-  <node componentName="JDBCConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="96">
+  <node componentName="JDBCConnection" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="288" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_3"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Open the JDBC connection"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0Connection"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="context.snowflake_userPassword_password"/>
+    <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
+    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.userId" value="context.snowflake_userPassword_userId"/>
+    <elementParameter field="CHECK" name="configuration.useAutoCommit" value="false"/>
     <elementParameter field="TEXT" name="configuration.jdbcUrl" value="&quot;jdbc:snowflake://&quot; + context.snowflake_account + &quot;.snowflakecomputing.com/?account=&quot; + context.snowflake_account + &quot;&amp;warehouse=&quot; + context.snowflake_warehouse + &quot;&amp;db=&quot; + context.snowflake_db + &quot;&amp;schema=&quot; + context.snowflake_schemaName"/>
+    <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" show="false" value="-1"/>
     <elementParameter field="TABLE" name="configuration.jdbcDriver">
       <elementValue elementRef="configuration.jdbcDriver[].path" value="&quot;mvn:net.snowflake/snowflake-jdbc/3.11.1/jar&quot;"/>
     </elementParameter>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="&quot;com.snowflake.client.jdbc.SnowflakeDriver&quot;"/>
-    <elementParameter field="TEXT" name="configuration.userId" value="context.snowflake_userPassword_userId"/>
-    <elementParameter field="PASSWORD" name="configuration.password" value="context.snowflake_userPassword_password"/>
-    <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
-    <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="configuration.useAutoCommit" value="false"/>
-    <elementParameter field="CHECK" name="configuration.autoCommit" value="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1"/>
   </node>
   <node componentName="JDBCClose" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="1216">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
@@ -712,32 +709,33 @@
       </column>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="864">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="768" posY="864">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_X12BAKRKEeqMKOpbUrSisw - AIRLINES_HISTO"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:O4DSRYyaa8DyeAPSx7Y+ZxgVbfJ2bZFYmPQ4OTZJ"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:O4DSRYyaa8DyeAPSx7Y+ZxgVbfJ2bZFYmPQ4OTZJ"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -746,14 +744,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="AIRLINE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES_HISTO" name="tDBInput_1">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -794,32 +785,33 @@
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="704">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="768" posY="704">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_X12BAKRKEeqMKOpbUrSisw - AIRLINES_HISTO"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:ubF/nEQhusWaDrxVL96tyTzRG4hVJxat5H9aObpW"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:ubF/nEQhusWaDrxVL96tyTzRG4hVJxat5H9aObpW"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -828,14 +820,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="AIRLINE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES_HISTO" name="tDBInput_2">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -876,32 +861,33 @@
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1952" posY="864">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="1952" posY="864">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_ClXtAKRKEeqMKOpbUrSisw - AIRLINES_HISTO_TYPE2"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:5ry/aDbncyMllWXYKGoauvTK2yNzFad+7DFgIAtV"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:5ry/aDbncyMllWXYKGoauvTK2yNzFad+7DFgIAtV"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -918,14 +904,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="VERSION"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES_HISTO_TYPE2" name="tDBInput_4">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -982,32 +961,33 @@
       <column comment="" key="false" length="38" name="VERSION" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1952" posY="704">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="1952" posY="704">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_5"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_ClXtAKRKEeqMKOpbUrSisw - AIRLINES_HISTO_TYPE2"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:/Royl5na8t/S2vquVUKZ2LlWcPlZc3QXaGEKBu9M"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:/Royl5na8t/S2vquVUKZ2LlWcPlZc3QXaGEKBu9M"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -1024,14 +1004,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="VERSION"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES_HISTO_TYPE2" name="tDBInput_5">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1088,32 +1061,33 @@
       <column comment="" key="false" length="38" name="VERSION" nullable="true" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="512" posY="544">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="512" posY="544">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_7"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_X12BAKRKEeqMKOpbUrSisw - AIRLINES_HISTO"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:ClBtiLLmE/FCXKEOVJvHH+2ILcCARyK8nXWSCxGa"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:ClBtiLLmE/FCXKEOVJvHH+2ILcCARyK8nXWSCxGa"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -1122,14 +1096,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="AIRLINE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="Flight_airlines_histo_type2" name="tDBInput_7">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1170,46 +1137,40 @@
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="1024">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="256" posY="1024">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_8"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_kKi8kJp1EeqFC4H86CdFwA - AIRLINES"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read source data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:vDrgVYt+0sGADD1xhqgifXtRJfPdlX1AaKkysy1J"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:vDrgVYt+0sGADD1xhqgifXtRJfPdlX1AaKkysy1J"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="IATA_CODE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
       <elementValue elementRef="configuration.config.columnTrims[].column" value="AIRLINE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES" name="tDBInput_8">
       <column comment="" key="true" length="2" name="IATA_CODE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1246,46 +1207,40 @@
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="1024">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="1024">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_9"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_kKi8kJp1EeqFC4H86CdFwA - AIRLINES"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read source data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:Vs+unHy3SBJx0DtZdNUXyiTRMPdgUSZQcbcP+sz/"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:Vs+unHy3SBJx0DtZdNUXyiTRMPdgUSZQcbcP+sz/"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="IATA_CODE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
       <elementValue elementRef="configuration.config.columnTrims[].column" value="AIRLINE"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES" name="tDBInput_9">
       <column comment="" key="true" length="2" name="IATA_CODE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1322,32 +1277,33 @@
       <column comment="" key="false" length="28" name="AIRLINE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="JDBCInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1728" posY="544">
+  <node componentName="JDBCInput" componentVersion="2" offsetLabelX="0" offsetLabelY="0" posX="1728" posY="544">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" show="false" value="_ClXtAKRKEeqMKOpbUrSisw - AIRLINES_HISTO_TYPE2"/>
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="MEMO" name="COMMENT" value="Read SCD data"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
-    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:5+WKL3W31l4Bu8NNFHa2ms70NK6N9FRBDuZQtzcL"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
-    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
     <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; + context.snowflake_schemaName + &quot;.AIRLINES_HISTO_TYPE2&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="&quot;jdbc:&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:5+WKL3W31l4Bu8NNFHa2ms70NK6N9FRBDuZQtzcL"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;AIRLINES&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
     <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" show="false" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" show="false" value="-1"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
     <elementParameter field="TABLE" name="configuration.config.columnTrims">
       <elementValue elementRef="configuration.config.columnTrims[].column" value="ID_HISTO"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
@@ -1364,14 +1320,7 @@
       <elementValue elementRef="configuration.config.columnTrims[].column" value="VERSION"/>
       <elementValue elementRef="configuration.config.columnTrims[].trim" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
-    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
     <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
-    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
-    <elementParameter field="TEXT" name="configuration.config.queryTimeout"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
     <metadata connector="FLOW" label="AIRLINES_HISTO_TYPE2" name="tDBInput_3">
       <column comment="" key="true" length="38" name="ID_HISTO" nullable="false" pattern="" precision="-1" sourceType="INTEGER" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="IATA_CODE" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -1849,13 +1798,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e49d8894-63d6-4663-bc26-48037862c649"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ekp2NW94KGE8XhBwAWypsTDY1XOkZbfxAcu49p+6bb+j0tvbQxfdwH0DaLO2jelZel5PiB7jXzKF&#13;
-ONZufw3vRg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fe1beb12-dde5-4be6-bfc5-78f52a5445d5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fU/BmZtq9zdVDPc37zBQv8Z0HdnwYCh0w0y1kTOU2/huEoWYA81Y4EBzUxRre/AVd9WN+N5gSp1Z&#13;
-PTQO0NJZEw==</DigestValue></Reference></SignedInfo><SignatureValue>h2qTZscce6Br+oS9nRpXZkmAF2cpUrObZtIP6dKdyjVbRkupeYbCqfmoqDRUd9DN8H8orzbCP1yK&#13;
-mohv4y1njPk4GwgY5vmBzpuyPP2lbn/Mj1yuVbrPeUCkkeZxUAhue5gp9BRtSVciN76dfKHG728k&#13;
-fMnDIGahD6fUl5dZsVCnn76ePlYS6ZwDEvvBQM9sT62zhpUjLNnbf0aCqCilxtAZxLswtQN8WJYd&#13;
-P7N58Xu6CeDtC2I0qUgJf3pOd8EZSZLK8DOa46PygAaoJGjA5I6Ay1mtljzzHvhbgMxbaMoESoco&#13;
-ASxzZ7ZuLeq5EPpIdJc8TxJrQ2BN8dKj7FlgeA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7ce9f30e-a12b-4f5b-88be-14bbe9ffec83"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0rbOIWKE7fcs+Q+hPvoRIibZdTdFnIZ+Pznx6FHCsRBgD5E73wsGRy/K8V7DUK3pPhi2w+4yFkVk&#13;
+pP9mYg40Yw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dbfc5ed7-ab4c-4ede-926d-34d859c7a1eb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sVBgcHzarddQ/OA7PHl1VlLLAVWzCwD+442sT6aOAcJMqVWlAqKodnpeSMx9UYexYOyLb20I3KCS&#13;
+7aby1Q1cKw==</DigestValue></Reference></SignedInfo><SignatureValue>Avk72f6QjG7ddGUvueBmgsSkwNBWr5x13/kGQst40g8DBm3pJ4k59Lb0s+qyMt9UfbhU9Gu++32C&#13;
+iN5BvnBCXMEMRW4UNRtxb/yDH1gZ7Yn8HV5qVJTfVM6mYROm5KzWHPyaXlSBp7hDisMgpqT5olCZ&#13;
+rPSDzG14qELSsoqioVygFjwq3kdRuhaogG/zXuLaxdeUoBCVJaHCDOTkE7geUifROlekCHBM3Ftn&#13;
+aHzIje2MxRAk9ZxrAC+rmZzXe5PAb3RW8OxEOeYFb3Nf4J31RbTqBNZ4X7ssgTmyJYT9nuT8PPxO&#13;
+y6vPYDD4oOKqvNZ4vb33u7ZnQBYO4/oDtXYbaA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1877,4 +1826,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fe1beb12-dde5-4be6-bfc5-78f52a5445d5" Target="#_e49d8894-63d6-4663-bc26-48037862c649"><Timestamp>2023-12-23 10:52:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dbfc5ed7-ab4c-4ede-926d-34d859c7a1eb" Target="#_7ce9f30e-a12b-4f5b-88be-14bbe9ffec83"><Timestamp>2024-10-11 09:53:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
