@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ethBUJGsEe-G_uiJTwlv3A" name="SAP_HANA_LOCAL" id="_G9U_EJGrEe-G_uiJTwlv3A" label="SAP_HANA_LOCAL" dataPackage="_ewKFoJGsEe-G_uiJTwlv3A _ewKFoZGsEe-G_uiJTwlv3A _ewKFopGsEe-G_uiJTwlv3A _ewKFo5GsEe-G_uiJTwlv3A _ewKFpJGsEe-G_uiJTwlv3A _ewKFpZGsEe-G_uiJTwlv3A _ewKFppGsEe-G_uiJTwlv3A _ewKFp5GsEe-G_uiJTwlv3A _ewKFqJGsEe-G_uiJTwlv3A _ewKFqZGsEe-G_uiJTwlv3A _ewKFqpGsEe-G_uiJTwlv3A _ewKFq5GsEe-G_uiJTwlv3A _ewKFrJGsEe-G_uiJTwlv3A _ewKFrZGsEe-G_uiJTwlv3A _ewKFrpGsEe-G_uiJTwlv3A _ewKFr5GsEe-G_uiJTwlv3A _ewKFsJGsEe-G_uiJTwlv3A _ewKFsZGsEe-G_uiJTwlv3A _ewKFspGsEe-G_uiJTwlv3A _ewKFs5GsEe-G_uiJTwlv3A _ewKFtJGsEe-G_uiJTwlv3A _ewKFtZGsEe-G_uiJTwlv3A _ewKFtpGsEe-G_uiJTwlv3A _ewKFt5GsEe-G_uiJTwlv3A _ewKFuJGsEe-G_uiJTwlv3A _ewKFuZGsEe-G_uiJTwlv3A _ewKFupGsEe-G_uiJTwlv3A _ewKFu5GsEe-G_uiJTwlv3A _ewKFvJGsEe-G_uiJTwlv3A _ewKFvZGsEe-G_uiJTwlv3A _ewKFvpGsEe-G_uiJTwlv3A _ewKFv5GsEe-G_uiJTwlv3A _ewKFwJGsEe-G_uiJTwlv3A _ewKFwZGsEe-G_uiJTwlv3A" DatabaseType="SAPHana" DriverClass="com.sap.db.jdbc.Driver" URL="jdbc:sap://hxehost:39015?" Port="39015" Username="SYSTEM" Password="enc:system.encryption.key.v1:q2SgiA+EKICn5rs/7YS/QyprbrKDjZkmMc4gIPH0x3AQ5amP" ServerName="hxehost" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="saphana_id" ProductId="SAPHANA" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_ethBUZGsEe-G_uiJTwlv3A" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_eueqoJGsEe-G_uiJTwlv3A" tag="package filter" value=""/>
+    <taggedValue xmi:id="_euppwJGsEe-G_uiJTwlv3A" tag="Status" value=""/>
+    <taggedValue xmi:id="_euppwZGsEe-G_uiJTwlv3A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_euppwpGsEe-G_uiJTwlv3A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_euppw5GsEe-G_uiJTwlv3A" tag="Description" value=""/>
+    <taggedValue xmi:id="_euppxJGsEe-G_uiJTwlv3A" tag="Author" value=""/>
+    <taggedValue xmi:id="_euppxZGsEe-G_uiJTwlv3A" tag="otherParameter"/>
+    <taggedValue xmi:id="_evf-UJGsEe-G_uiJTwlv3A" tag="DB ProductName" value="HDB"/>
+    <taggedValue xmi:id="_evf-UZGsEe-G_uiJTwlv3A" tag="DB ProductVersion" value="2.00.076.00.1705400033"/>
+    <taggedValue xmi:id="_evf-UpGsEe-G_uiJTwlv3A" tag="DB IdentifierQuoteString" value=""/>
+    <parameters xmi:id="_ethBUpGsEe-G_uiJTwlv3A" key="CONN_PARA_KEY_USERNAME" value="SYSTEM"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFoJGsEe-G_uiJTwlv3A" name="HANA_XS_BASE" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFoZGsEe-G_uiJTwlv3A" name="SAP_REST_API" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFopGsEe-G_uiJTwlv3A" name="SAP_XS_LM" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFo5GsEe-G_uiJTwlv3A" name="SAP_XS_LM_PE" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFpJGsEe-G_uiJTwlv3A" name="SAP_XS_LM_PE_TMP" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFpZGsEe-G_uiJTwlv3A" name="SAP_XS_USAGE" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFppGsEe-G_uiJTwlv3A" name="SYS" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFp5GsEe-G_uiJTwlv3A" name="SYSTEM" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFqJGsEe-G_uiJTwlv3A" name="TECH_USER1" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFqZGsEe-G_uiJTwlv3A" name="TEL_ADMIN" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFqpGsEe-G_uiJTwlv3A" name="UIS" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFq5GsEe-G_uiJTwlv3A" name="XSSQLCC_AUTO_USER_3094F258A8978F7A7558E080D94C8500B0772804AA2663AF6058A40D719CA72D" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFrJGsEe-G_uiJTwlv3A" name="XSSQLCC_AUTO_USER_5E2492DBCDEDAE8BF85A0EA2741D2302882088A51A3ED5634ABEB402AE579A39" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFrZGsEe-G_uiJTwlv3A" name="XSSQLCC_AUTO_USER_D5D3B0C4F06A79377BE0D4198763EC5EDEBC14E80D1BB1BBABA9D3B5F3C4AD1A" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFrpGsEe-G_uiJTwlv3A" name="_SYS_ADVISOR" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFr5GsEe-G_uiJTwlv3A" name="_SYS_AFL" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFsJGsEe-G_uiJTwlv3A" name="_SYS_AUDIT" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFsZGsEe-G_uiJTwlv3A" name="_SYS_BI" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFspGsEe-G_uiJTwlv3A" name="_SYS_BIC" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFs5GsEe-G_uiJTwlv3A" name="_SYS_DATA_ANONYMIZATION" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFtJGsEe-G_uiJTwlv3A" name="_SYS_EPM" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFtZGsEe-G_uiJTwlv3A" name="_SYS_EPM_DATA" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFtpGsEe-G_uiJTwlv3A" name="_SYS_LDB" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFt5GsEe-G_uiJTwlv3A" name="_SYS_PLAN_STABILITY" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFuJGsEe-G_uiJTwlv3A" name="_SYS_REPO" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFuZGsEe-G_uiJTwlv3A" name="_SYS_RT" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFupGsEe-G_uiJTwlv3A" name="_SYS_SECURITY" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFu5GsEe-G_uiJTwlv3A" name="_SYS_SQL_ANALYZER" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFvJGsEe-G_uiJTwlv3A" name="_SYS_STATISTICS" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFvZGsEe-G_uiJTwlv3A" name="_SYS_TABLE_REPLICAS" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFvpGsEe-G_uiJTwlv3A" name="_SYS_TASK" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFv5GsEe-G_uiJTwlv3A" name="_SYS_TELEMETRY" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFwJGsEe-G_uiJTwlv3A" name="_SYS_WORKLOAD_REPLAY" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_ewKFwZGsEe-G_uiJTwlv3A" name="_SYS_XS" dataManager="_ethBUJGsEe-G_uiJTwlv3A"/>
+</xmi:XMI>
