@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x193ceb4268f' V1='4' name='E2CUVAL002' incarnation='33'>
+<root t='150' id='1' V150='13' creationTimestamp='0x193e26f2157' V1='4' name='E2CUVAL002' incarnation='33'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='E2CUVAL002' description='CU: Characteristic valuation'>
     <structNode t='150' idref='1'/>
     <delimTerminator>\n</delimTerminator>

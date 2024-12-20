@@ -167,6 +167,10 @@
     <elementParameter field="RADIO" name="AS_INPUTSTREAM" value="false"/>
     <elementParameter field="RADIO" name="AS_OBJECT" value="false" show="false"/>
     <elementParameter field="RADIO" name="AS_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="SOURCE_TDM_STRUCT_INCARNATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="TARGET_TDM_STRUCT_INCARNATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SOURCE_GENERATED_TDM_STRUCT_PATH" value="" show="false"/>
+    <elementParameter field="TEXT" name="TARGET_GENERATED_TDM_STRUCT_PATH" value="" show="false"/>
     <elementParameter field="TEXT" name="SINGLE_COLUMN_OBJECTTYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="SINGLE_COLUMN_STRING" value="true" show="false"/>
     <elementParameter field="TEXT" name="SINGLE_COLUMN_BYTEARRAY" value="false" show="false"/>
@@ -221,8 +225,8 @@
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
     <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
